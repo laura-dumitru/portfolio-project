@@ -1,4 +1,42 @@
+:root {
+  --primary-color: #e7e8f5;
+  --secondary-color: #ffded5;
+  --body-font: "Alice", serif;
+}
+
+body {
+  font-family: var(--body-font);
+}
 h1 {
-  font-family: "Alice", serif;
+  font-size: 60px;
+  color: black;
   font-weight: bold;
+}
+p {
+  font-weight: normal;
+}
+.introduction {
+  background-color: var(--primary-color);
+  text-align: center;
+  padding: 160px 20px;
+}
+.introduction p {
+  font-size: 36px;
+  margin: 0;
+}
+.introduction h2 {
+  font-size: 24px;
+  line-height: 2;
+}
+.btn-branding {
+  background-color: var(--secondary-color);
+  border-radius: 6px;
+  font-size: 18px;
+  line-height: 30px;
+  padding: 15px 30px;
+}
+.icons {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 10px;
 }
