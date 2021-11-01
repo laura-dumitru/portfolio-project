@@ -44,6 +44,9 @@ p {
   justify-content: space-evenly;
   margin-top: 10px;
 }
+.technologies {
+  font-size: 30px;
+}
 .btn-launch {
   background-color: var(--primary-color);
   border-radius: 6px;
