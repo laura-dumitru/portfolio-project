@@ -12,13 +12,17 @@ h1 {
   color: black;
   font-weight: bold;
 }
+h2 {
+  font-size: 36px;
+}
 p {
   font-weight: normal;
+  line-height: 1.5;
 }
 .introduction {
   background-color: var(--primary-color);
   text-align: center;
-  padding: 160px 20px;
+  padding: 100px 20px;
 }
 .introduction p {
   font-size: 36px;
@@ -39,4 +43,11 @@ p {
   display: flex;
   justify-content: space-evenly;
   margin-top: 10px;
+}
+.btn-launch {
+  background-color: var(--primary-color);
+  border-radius: 6px;
+  font-size: 18px;
+  line-height: 30px;
+  padding: 16px 20px;
 }
