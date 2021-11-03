@@ -49,7 +49,7 @@ p {
   padding: 160px 20px;
 }
 .about-section-content {
-  margin: 30px;
+  margin: 0 30px;
 }
 .btn-branding {
   background-color: var(--secondary-color);
