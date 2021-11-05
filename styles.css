@@ -9,8 +9,9 @@ body {
   font-family: var(--body-font);
 }
 
-nav {
+.navbar {
   font-family: var(--headers-font);
+  padding: 16px 0;
 }
 .navbar-toggler {
   border: none;
@@ -25,6 +26,9 @@ h3 {
 h1 {
   font-size: 64px;
   font-weight: bold;
+}
+.contact-me {
+  margin-top: 300px;
 }
 h2 {
   font-size: 36px;
