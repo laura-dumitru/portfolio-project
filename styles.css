@@ -13,8 +13,15 @@ body {
   font-family: var(--headers-font);
   padding: 16px 0;
 }
+.nav-link {
+  color: black !important;
+}
+
 .navbar-toggler {
   border: none;
+}
+.navbar-nav {
+  padding: 0 40px;
 }
 
 h1,
@@ -27,9 +34,10 @@ h1 {
   font-size: 64px;
   font-weight: bold;
 }
-.contact-me {
-  margin-top: 300px;
+.contact-me h1 {
+  margin: 84px 0;
 }
+
 h2 {
   font-size: 36px;
 }
@@ -41,6 +49,7 @@ p {
   font-weight: normal;
   line-height: 1.5;
 }
+
 .introduction {
   background-color: var(--primary-color);
   text-align: center;
