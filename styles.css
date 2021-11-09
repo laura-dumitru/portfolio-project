@@ -1,6 +1,6 @@
 :root {
-  --primary-color: #e7e8f5;
-  --secondary-color: #ffded5;
+  --primary-color: #e7eaf6;
+  --secondary-color: #a2a8d3;
   --body-font: "Alice", serif;
   --headers-font: "Poppins", sans-serif;
 }
@@ -62,7 +62,7 @@ footer .social-links a {
   color: black;
 }
 .contact-me-email:hover {
-  color: var(--primary-color);
+  color: var(--secondary-color);
 }
 
 .introduction {
