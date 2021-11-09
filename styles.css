@@ -37,6 +37,10 @@ h1 {
 .contact-me h1 {
   margin: 84px 0;
 }
+.contact-me-email {
+  text-decoration: none;
+  color: black;
+}
 
 h2 {
   font-size: 36px;
@@ -104,6 +108,16 @@ p {
   line-height: 30px;
   padding: 16px 20px;
 }
+footer {
+  margin: 60px 0;
+}
+footer .social-links a {
+  color: black;
+  margin: 0 20px;
+  padding: 10px 30px;
+  font-size: 32px;
+}
+
 @media (max-width: 900px) {
   .about-section {
     text-align: center;
