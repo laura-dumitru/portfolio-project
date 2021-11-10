@@ -15,9 +15,15 @@ h3 {
 }
 
 h1 {
-  font-size: 64px;
+  font-size: 56px;
   font-weight: bold;
 }
+.about-section h1 {
+  position: relative;
+  top: -16px;
+  margin-bottom: -8px;
+}
+
 h2 {
   font-size: 36px;
 }
@@ -29,13 +35,10 @@ p {
   font-weight: normal;
   line-height: 1.8;
 }
-footer {
-  margin: 20px 0;
-}
+
 footer .social-links a {
   color: black;
-  margin: 0 20px;
-  padding: 10px 30px;
+  margin: 64px 20px 32px 20px;
   font-size: 32px;
 }
 
@@ -68,7 +71,7 @@ footer .social-links a {
 .introduction {
   background-color: var(--primary-color);
   text-align: center;
-  padding: 80px 20px;
+  padding: 64px 0;
 }
 .introduction p {
   font-size: 36px;
@@ -90,7 +93,7 @@ footer .social-links a {
   font-family: var(--body-font);
 }
 .about-section {
-  padding: 160px 20px;
+  padding: 120px 50px;
 }
 .about-section-content {
   margin: 0 30px;
