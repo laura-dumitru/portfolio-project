@@ -7,6 +7,7 @@
 
 body {
   font-family: var(--body-font);
+  text-align: left;
 }
 h1,
 h2,
@@ -96,7 +97,7 @@ footer .social-links a {
   font-family: var(--body-font);
 }
 .about-section {
-  padding: 120px 50px;
+  padding: 64px 16px;
 }
 .about-section-content {
   margin: 0 30px;
@@ -127,14 +128,22 @@ footer .social-links a {
 }
 
 @media (max-width: 900px) {
+  body {
+    text-align: left;
+  }
   h1,
   .about-section h1 {
     font-size: 40px;
   }
   .about-section {
     text-align: center;
+    padding-top: 0;
   }
-  .about-section-content p {
+  .about-section img {
+    margin-bottom: 32px;
+  }
+  .about-section-content p,
+  .col-sm-6 p {
     text-align: left;
   }
   .introduction p {
@@ -150,10 +159,7 @@ footer .social-links a {
     padding: 16px 24px;
   }
   .mb-3 {
-    margin-top: 20px;
-  }
-  .col-sm-6 {
-    text-align: center;
+    margin-top: 6px;
   }
 
   footer .social-links a {
