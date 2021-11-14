@@ -71,18 +71,22 @@ p {
 .contact-me h1 {
   margin: 84px 0;
 }
+.featured-project {
+  margin: 32px;
+}
 .contact-me-email {
   text-decoration: none;
   color: black;
 }
 .contact-me-email:hover {
-  color: var(--secondary-color);
+  color: var(--primary-color);
 }
 
-.introduction {
-  /*background-image: url("/images/tile.png");
-  background-size: 128px;*/
-  background-color: var(--backround-color);
+.introduction,
+.introduction-contact {
+  background-image: url("/images/tile.png");
+  background-size: 128px;
+  /*background-color: var(--backround-color);*/
   text-align: center;
   padding: 64px 0;
 }
@@ -93,6 +97,9 @@ p {
 .introduction h2 {
   font-size: 24px;
   line-height: 2;
+}
+.introduction-contact {
+  margin-top: 20px;
 }
 .country {
   font-family: var(--body-font);
@@ -141,6 +148,9 @@ footer .social-links a {
   margin: 64px 20px 32px 20px;
   font-size: 32px;
 }
+footer .social-links a:hover {
+  color: var(--primary-color);
+}
 
 @media (max-width: 900px) {
   body {
@@ -186,6 +196,9 @@ footer .social-links a {
   .btn.btn-launch,
   .technologies {
     margin: 0 auto;
+  }
+  .featured-project {
+    margin: 32px;
   }
 
   footer .social-links a {
