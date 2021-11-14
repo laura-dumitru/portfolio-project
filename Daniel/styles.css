@@ -1,0 +1,61 @@
+/* https://csscolorpalettes.com/palettes/542#palette */
+:root {
+  --pink: #eda1c1;
+  --peach: #fab2ac;
+  --green: #bee4d2;
+  --teal: #d7f8f7
+}
+
+/* Typography */
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300&family=Manrope:wght@600&display=swap');
+
+h1 { text-transform: uppercase }
+h1, h2 { font-family: 'Manrope', sans-serif }
+h3, h4, h5, h6 { font-family: 'JetBrains Mono', monospace }
+
+header {
+  display: flex;
+  height: 64px;
+  gap: 8px;
+  margin-left: 8px
+}
+header .logo { margin-top: 8px }
+header h3 {
+  display: flex;
+  align-items: center
+}
+
+/* LD logo */
+[class^=logo-] {
+  fill: none;
+  stroke-width: 40;
+  stroke-linejoin: round;
+  stroke-linecap: square
+}
+.logo-l { stroke: var(--pink) }
+.logo-d { stroke: var(--green) }
+
+/* Badge logo /
+.logo-ld {
+  fill: none;
+  stroke: white;
+  stroke-width: 40;
+  stroke-linejoin: round;
+  stroke-linecap: square
+}
+.logo-badge { fill: var(--pink) }
+*/
+
+.hero {
+  background: url('tile.png'); /*var(--pink);*/
+  background-size: 128px;
+  height: 320px;
+  text-align: center;
+  padding-top: 128px
+}
+/*
+.logo-tile { height: 100vh }
+.logo-tile path {
+  fill: white;
+  opacity: 20%
+}*/

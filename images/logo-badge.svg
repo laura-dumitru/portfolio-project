@@ -1,0 +1,17 @@
+<svg viewBox="0 0 384 384" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .logo-ld {
+      fill: none;
+      stroke: white;
+      stroke-width: 40;
+      stroke-linejoin: round;
+      stroke-linecap: square
+    }
+    .logo-badge { fill: #eda1c1 }
+  </style>
+  <path class="logo-badge" d="m339.1 225.9-113.2 113.2c-18.7 18.7-49.1 18.7-67.9 0l-113.1-113.2c-18.7-18.7-18.7-49.1 0-67.9l113.2-113.1c18.7-18.7 49.1-18.7 67.9 0l113.1 113.1c18.7 18.8 18.7 49.2 0 67.9z"/>
+  <g class="logo-ld">
+    <path d="m146.7 237.3-45.2-45.3 90.5-90.5"/>
+    <path d="m237.3 237.3 45.2-45.3-45.2-45.3"/>
+  </g>
+</svg>

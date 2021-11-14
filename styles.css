@@ -1,6 +1,10 @@
+/* https://csscolorpalettes.com/palettes/542#palette */
 :root {
-  --primary-color: #e7eaf6;
-  --secondary-color: #a2a8d3;
+  --primary-color: #e9b2bc;
+  --secondary-color: #e1f2fb;
+  --third-color: #f3dfe3;
+  --backround-color: #f1f9f9;
+
   --body-font: "Alice", serif;
   --headers-font: "Poppins", sans-serif;
 }
@@ -43,25 +47,25 @@ p {
   line-height: 1.8;
 }
 
-footer .social-links a {
-  color: black;
-  margin: 64px 20px 32px 20px;
-  font-size: 32px;
-}
-
 .navbar {
   font-family: var(--headers-font);
-  padding: 16px 0;
 }
+
+.navbar-brand {
+  max-width: 64px;
+  padding: 0;
+  margin: 0;
+}
+
 .nav-link {
   color: black !important;
+  white-space: nowrap;
+  padding-top: 8px;
+  margin: 0 8px;
 }
 
 .navbar-toggler {
   border: none;
-}
-.navbar-nav {
-  padding: 0 40px;
 }
 
 .contact-me h1 {
@@ -76,7 +80,9 @@ footer .social-links a {
 }
 
 .introduction {
-  background-color: var(--primary-color);
+  /*background-image: url("/images/tile.png");
+  background-size: 128px;*/
+  background-color: var(--backround-color);
   text-align: center;
   padding: 64px 0;
 }
@@ -106,7 +112,7 @@ footer .social-links a {
   margin: 0 30px;
 }
 .btn-branding {
-  background-color: var(--secondary-color);
+  background-color: var(--primary-color);
   border-radius: 6px;
   font-family: var(--headers-font);
   font-size: 18px;
@@ -128,6 +134,12 @@ footer .social-links a {
   font-size: 18px;
   line-height: 30px;
   padding: 16px 20px;
+}
+
+footer .social-links a {
+  color: black;
+  margin: 64px 20px 32px 20px;
+  font-size: 32px;
 }
 
 @media (max-width: 900px) {
