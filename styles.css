@@ -72,6 +72,7 @@ p {
   margin: 48px;
 }
 .contact-me-email {
+  font-size: 24px;
   text-decoration: none;
   color: black;
 }
@@ -145,6 +146,9 @@ p {
 }
 .btn-launch:hover {
   background-color: var(--third-color);
+}
+.fas.fa-envelope {
+  font-size: 32px;
 }
 
 footer .social-links a {
