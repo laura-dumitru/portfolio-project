@@ -210,6 +210,9 @@ footer .social-links a:hover {
   .technologies {
     margin: 0 auto;
   }
+  .technologies {
+    margin-top: 16px;
+  }
   .featured-project {
     margin: 32px;
   }
