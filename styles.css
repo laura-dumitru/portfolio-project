@@ -65,19 +65,8 @@ p {
   border: none;
 }
 
-.contact-me h1 {
-  margin: 84px 0;
-}
 .featured-project {
   margin: 48px;
-}
-.contact-me-email {
-  font-size: 24px;
-  text-decoration: none;
-  color: black;
-}
-.contact-me-email:hover {
-  color: var(--primary-color);
 }
 
 .introduction,
@@ -97,13 +86,19 @@ p {
   line-height: 2;
 }
 
-form {
+.introduction-contact * {
+  margin: 16px;
 }
-.form-control {
-  margin: 16px 0;
+.introduction-contact a {
+  font-size: 32px;
 }
-.form-group {
-  margin: 16px 0;
+.contact-me-link {
+  font-size: 24px;
+  text-decoration: none;
+  color: black;
+}
+.contact-me-link:hover {
+  color: var(--primary-color);
 }
 
 .country {
@@ -123,10 +118,13 @@ form {
 .about-section-content {
   margin: 0 30px;
 }
+
 .btn,
-footer .fab {
+footer .fab,
+.contact-me-link {
   transition: all 250ms ease-in-out;
 }
+
 .btn-branding {
   background-color: var(--primary-color);
   border-radius: 6px;
@@ -158,7 +156,7 @@ footer .fab {
 .btn-launch:hover {
   background-color: var(--third-color);
 }
-.fas.fa-envelope {
+.introduction-contact .fas {
   font-size: 32px;
 }
 
@@ -233,6 +231,10 @@ footer .social-links a:hover {
   }
   .featured-project {
     margin: 32px;
+  }
+
+  .introduction-contact a {
+    font-size: 24px;
   }
 
   #scroll-top {
