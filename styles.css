@@ -18,13 +18,23 @@ h2,
 h3 {
   font-family: var(--headers-font);
 }
-h3 {
-  text-align: center;
-}
 
 h1 {
   font-size: 56px;
   font-weight: bold;
+}
+
+h2 {
+  font-size: 36px;
+}
+h3 {
+  font-size: 24px;
+  text-align: center;
+}
+
+p {
+  font-weight: normal;
+  line-height: 1.8;
 }
 .container {
   max-width: 1152px;
@@ -33,18 +43,6 @@ h1 {
   position: relative;
   top: -16px;
   margin-bottom: -8px;
-}
-
-h2 {
-  font-size: 36px;
-}
-h3 {
-  font-size: 24px;
-}
-
-p {
-  font-weight: normal;
-  line-height: 1.8;
 }
 
 .navbar {
@@ -163,6 +161,7 @@ footer .social-links a:hover {
   btn btn-branding {
     padding: 16px 24px;
   }
+
   h1,
   .about-section h1 {
     font-size: 40px;
@@ -192,6 +191,9 @@ footer .social-links a:hover {
   .col-sm-6 h2,
   p {
     text-align: center;
+  }
+  .col-sm-6 p {
+    margin: 8px;
   }
   .btn.btn-launch,
   .technologies {
