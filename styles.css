@@ -123,6 +123,10 @@ p {
   line-height: 30px;
   padding: 15px 30px;
 }
+.btn-branding:hover {
+  background-color: var(--third-color);
+}
+
 .icons {
   display: flex;
   justify-content: space-evenly;
@@ -138,6 +142,9 @@ p {
   font-size: 18px;
   line-height: 30px;
   padding: 16px 20px;
+}
+.btn-launch:hover {
+  background-color: var(--third-color);
 }
 
 footer .social-links a {
