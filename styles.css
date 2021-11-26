@@ -3,6 +3,7 @@
   --secondary-color: #bee1e6;
   --third-color: #ffd8db;
   --backround-color: #dfe7fd;
+  --background-project: #f6f4f6;
 
   --body-font: "Poppins", sans-serif;
   --headers-font: "Yeseva One";
@@ -11,15 +12,10 @@
 body {
   font-family: var(--body-font);
   text-align: left;
-  background-color: #f6f4f6;
+  background-color: var(--background-project);
 }
-h1,
-h2,
-h3 {
-  font-family: var(--headers-font);
-}
-
 h1 {
+  font-family: var(--headers-font);
   font-size: 56px;
   font-weight: bold;
 }
@@ -46,7 +42,8 @@ p {
 }
 
 .navbar {
-  font-family: var(--headers-font);
+  font-family: var(--body-font);
+  font-size: 21px;
 }
 
 .navbar-brand {
@@ -99,7 +96,7 @@ p {
   color: black;
 }
 .contact-me-link:hover {
-  color: var(--primary-color);
+  color: #383532;
 }
 
 .country {
@@ -129,7 +126,7 @@ footer .fab,
 .btn-branding {
   background-color: var(--primary-color);
   border-radius: 6px;
-  font-family: var(--headers-font);
+  font-family: var(--body-font);
   font-size: 18px;
   line-height: 30px;
   padding: 15px 30px;
@@ -149,7 +146,7 @@ footer .fab,
 .btn-launch {
   background-color: var(--primary-color);
   border-radius: 6px;
-  font-family: var(--headers-font);
+  font-family: var(--body-font);
   font-size: 18px;
   line-height: 30px;
   padding: 16px 20px;
@@ -177,7 +174,7 @@ footer .social-links a {
   font-size: 32px;
 }
 footer .social-links a:hover {
-  color: var(--primary-color);
+  color: var(--third-color);
 }
 
 @media (max-width: 900px) {
