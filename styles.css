@@ -211,6 +211,9 @@ footer .social-links a:hover {
   .mb-3 {
     margin-top: 20px;
   }
+  .introduction h2 {
+    margin: 0 48px;
+  }
 
   .col-sm-6 h2,
   p {
