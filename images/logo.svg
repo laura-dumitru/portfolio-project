@@ -6,8 +6,8 @@
       stroke-linejoin: round;
       stroke-linecap: square
     }
-    .logo-l { stroke: #f7acc9 }
-    .logo-d { stroke: #8675A9 }
+    .logo-l { stroke: #ffd8db }
+    .logo-d { stroke: #bee1e6 }
   </style>
   <path class="logo-l" d="m82.7 173.3-45.2-45.3 90.5-90.5"/>
   <path class="logo-d" d="m173.3 173.3 45.2-45.3-45.2-45.3"/>

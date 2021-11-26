@@ -1,8 +1,8 @@
 :root {
-  --primary-color: #f7acc9;
-  --secondary-color: #8675a9;
-  --third-color: #efbbcf;
-  --backround-color: #f9e4ec;
+  --primary-color: #fde2e4;
+  --secondary-color: #bee1e6;
+  --third-color: #ffd8db;
+  --backround-color: #dfe7fd;
 
   --body-font: "Alice", serif;
   --headers-font: "Poppins", sans-serif;
@@ -11,6 +11,7 @@
 body {
   font-family: var(--body-font);
   text-align: left;
+  background-color: #f6f4f6;
 }
 h1,
 h2,
