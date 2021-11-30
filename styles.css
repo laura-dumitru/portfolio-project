@@ -129,6 +129,10 @@ footer .fab,
   line-height: 30px;
   padding: 15px 30px;
 }
+.btn-check:focus + .btn,
+.btn:focus {
+  box-shadow: none;
+}
 .btn-branding:hover {
   background-color: var(--third-color);
 }
