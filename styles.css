@@ -207,6 +207,7 @@ footer .social-links a:hover {
   .about-section h1 {
     font-size: 40px;
   }
+
   .about-section {
     text-align: center;
     padding-top: 0;
@@ -260,7 +261,9 @@ footer .social-links a:hover {
   .skills p {
     font-size: smaller;
   }
-
+  .title {
+    margin: 40px;
+  }
   #scroll-top {
     bottom: 16px;
     right: 16px;
