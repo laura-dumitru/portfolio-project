@@ -271,7 +271,7 @@ footer .social-links a:hover {
   }
 
   footer .social-links a {
-    color: black;
+    color: var(--icons-colour);
     margin: 10px;
     font-size: 32px;
   }
