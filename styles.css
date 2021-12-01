@@ -242,6 +242,7 @@ footer .social-links a:hover {
   }
   .technologies {
     margin-top: 16px;
+    font-size: 40px;
   }
   .title {
     margin: 32px;
@@ -253,7 +254,7 @@ footer .social-links a:hover {
   .skills {
     padding: 0 48px;
   }
-  .skills i .technologies {
+  .skills i {
     font-size: 40px;
   }
   .skills p {
