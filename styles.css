@@ -17,6 +17,7 @@ h1 {
   font-family: var(--headers-font);
   font-size: 56px;
   font-weight: bold;
+  color: var(--icons-colour);
 }
 h2 {
   font-size: 32px;
@@ -248,6 +249,15 @@ footer .social-links a:hover {
 
   .introduction-contact a {
     font-size: 24px;
+  }
+  .skills {
+    padding: 0 48px;
+  }
+  .skills i {
+    font-size: 32px;
+  }
+  .skills p {
+    font-size: smaller;
   }
 
   #scroll-top {
