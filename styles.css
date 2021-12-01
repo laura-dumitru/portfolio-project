@@ -25,7 +25,7 @@ h2 {
 
 .title {
   text-align: center;
-  margin: 64px 0;
+  margin: 48px 0;
 }
 .container h2 {
   text-align: left;
@@ -43,6 +43,7 @@ p {
   position: relative;
   top: -16px;
   margin-bottom: -8px;
+  color: var(--icons-colour);
 }
 
 .navbar {
@@ -105,7 +106,7 @@ p {
   text-align: center;
 }
 .skills i {
-  font-size: 48px;
+  font-size: 40px;
   color: var(--icons-colour);
 }
 
@@ -152,7 +153,7 @@ footer .fab,
   margin-top: 10px;
 }
 .technologies {
-  font-size: 32px;
+  font-size: 40px;
   color: var(--icons-colour);
 }
 .btn-launch {
@@ -182,7 +183,7 @@ footer .fab,
 }
 
 footer .social-links a {
-  color: black;
+  color: var(--icons-colour);
   margin: 64px 20px 32px 20px;
   font-size: 40px;
 }
