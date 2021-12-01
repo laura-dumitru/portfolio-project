@@ -253,8 +253,8 @@ footer .social-links a:hover {
   .skills {
     padding: 0 48px;
   }
-  .skills i {
-    font-size: 32px;
+  .skills i .technologies {
+    font-size: 40px;
   }
   .skills p {
     font-size: smaller;
