@@ -22,9 +22,9 @@ h2 {
   font-size: 32px;
 }
 
-h1,
-h2 {
+.title {
   text-align: center;
+  margin: 64px 0;
 }
 .container h2 {
   text-align: left;
@@ -37,6 +37,7 @@ p {
 .container {
   max-width: 1152px;
 }
+
 .about-section h1 {
   position: relative;
   top: -16px;
@@ -62,10 +63,6 @@ p {
 
 .navbar-toggler {
   border: none;
-}
-
-.title {
-  margin: 40px;
 }
 
 .introduction,
@@ -107,17 +104,15 @@ p {
 .skills {
   display: flex;
   justify-content: space-evenly;
-  margin-top: 48px;
-  margin-bottom: 32px;
 }
 .tech {
   text-align: center;
-  font-size: 48px;
+  font-size: 64px;
 }
 .tech p {
   font-size: 24px;
-  text-align: center;
 }
+
 .about-section h1 {
   font-size: 64px;
   line-height: 80px;
@@ -170,6 +165,7 @@ footer .fab,
   font-size: 18px;
   line-height: 30px;
   padding: 16px 20px;
+  margin-right: 12px;
 }
 .btn-launch:hover {
   background-color: var(--third-color);
