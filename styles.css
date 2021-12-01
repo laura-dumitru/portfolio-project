@@ -100,17 +100,12 @@ p {
 .country {
   font-family: var(--body-font);
 }
-
 .skills {
-  display: flex;
-  justify-content: space-evenly;
-}
-.tech {
   text-align: center;
-  font-size: 64px;
 }
-.tech p {
-  font-size: 24px;
+.skills i {
+  font-size: 48px;
+  color: var(--icons-colour);
 }
 
 .about-section h1 {
@@ -156,7 +151,8 @@ footer .fab,
   margin-top: 10px;
 }
 .technologies {
-  font-size: 30px;
+  font-size: 32px;
+  color: var(--icons-colour);
 }
 .btn-launch {
   background-color: var(--primary-color);
