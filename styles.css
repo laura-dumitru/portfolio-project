@@ -84,7 +84,6 @@ p {
   font-size: 32px;
 }
 .contact-me-link {
-  font-size: 24px;
   text-decoration: none;
   color: black;
 }
@@ -129,11 +128,11 @@ footer .fab,
 
 .btn-branding {
   background-color: var(--primary-color);
-  border-radius: 6px;
+  border-radius: 8px;
   font-family: var(--body-font);
   font-size: 16px;
   line-height: 30px;
-  padding: 15px 30px;
+  padding: 16px 32px;
 }
 .btn-check:focus + .btn,
 .btn:focus {
@@ -165,7 +164,7 @@ footer .fab,
   background-color: var(--third-color);
 }
 .introduction-contact .fas {
-  font-size: 32px;
+  font-size: 40px;
 }
 
 #scroll-top {
@@ -270,9 +269,10 @@ footer .social-links a:hover {
     font-size: 24px;
   }
 
-  element.style {
-  }
   .introduction-contact a {
     font-size: 16px;
+  }
+  .introduction-contact .fas {
+    font-size: 32px;
   }
 }
