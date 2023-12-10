@@ -1,0 +1,11 @@
+:root {
+  --primary-color: #fde2e4;
+  --secondary-color: #bee1e6;
+  --third-color: #ffd8db;
+  --backround-color: #dfe7fd;
+  --bs-body-bg: #383532;
+  --icons-colour: #f6f4f6;
+
+  --body-font: "Poppins", sans-serif;
+  --headers-font: "Yeseva One";
+}
