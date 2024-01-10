@@ -15,15 +15,18 @@ body {
 }
 h1 {
   font-family: var(--headers-font);
-  font-size: 48px;
+  margin-bottom: 12px;
+
   font-weight: bold;
   color: var(--icons-colour);
 }
-h2 {
-  font-size: 32px;
+h4 {
+  font-weight: 400;
+  margin-bottom: 12px;
 }
+
 p {
-  font-size: 16px;
+  font-size: 14px;
   font-weight: normal;
   line-height: 1.8;
 }
@@ -70,7 +73,7 @@ p {
   padding: 32px 0;
 }
 .introduction p {
-  font-size: 32px;
+  font-size: 12px;
   margin: 0;
 }
 .introduction h2 {
@@ -81,7 +84,7 @@ p {
   margin: 16px;
 }
 .introduction-contact a {
-  font-size: 32px;
+  font-size: 12px;
 }
 .contact-me-link {
   text-decoration: none;
@@ -103,7 +106,6 @@ p {
 }
 
 .about-section h1 {
-  line-height: 80px;
   position: relative;
   top: -16px;
   margin-bottom: -8px;
@@ -117,9 +119,17 @@ p {
   padding: 64px 16px;
 }
 .about-section-content {
-  margin: 0 32px;
+  margin: 0 2px;
 }
-
+.about-section-content p {
+  font-size: 14px;
+}
+.work {
+  display: block;
+  margin: 0 auto;
+  max-width: 70%;
+  font-size: 14px;
+}
 .btn,
 footer .fab,
 .contact-me-link {
@@ -190,16 +200,6 @@ footer .social-links a:hover {
   body {
     text-align: center;
   }
-  h1 {
-    font-size: 30px;
-  }
-
-  h2 {
-    font-size: 20px;
-  }
-  p {
-    font-size: 12px;
-  }
 
   btn btn-branding {
     padding: 16px 24px;
@@ -209,13 +209,7 @@ footer .social-links a:hover {
     text-align: center;
     padding-top: 0;
   }
-  .about-section img {
-    margin-bottom: 32px;
-  }
-  .about-section-content p,
-  .col-sm-6 p {
-    text-align: left;
-  }
+
   .introduction p {
     font-size: 20px;
   }
