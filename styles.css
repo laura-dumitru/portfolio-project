@@ -2,18 +2,25 @@
   --primary-color: #fde2e4;
   --secondary-color: #bee1e6;
   --third-color: #ffd8db;
-  --backround-color: #dfe7fd;
+  --button-color: #dfe7fd;
   --background-color: #f6f4f6;
   --icons-colour: #383532;
 
   --body-font: "Poppins", sans-serif;
-  --headers-font: "Yeseva One";
+  --headers-font: "Playfair Display", serif;
 }
 
 body {
   font-family: var(--body-font);
   background-image: url("/images/tile.png");
 }
+.main-container {
+  background-color: #f6f4f6;
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 0 100px;
+}
+
 h1 {
   font-family: var(--headers-font);
   margin-bottom: 12px;
@@ -21,9 +28,14 @@ h1 {
   font-weight: bold;
   color: var(--icons-colour);
 }
-h4 {
-  font-weight: 400;
+h2 {
+  font-size: 40px;
+  margin-top: 12px;
   margin-bottom: 12px;
+}
+h4 {
+  margin-top: 60px;
+  margin-bottom: 24px;
 }
 
 p {
@@ -37,7 +49,7 @@ img {
 
 .title {
   text-align: center;
-  margin: 32px 0;
+  margin: 12px 0;
 }
 .container h2 {
   text-align: left;
@@ -70,10 +82,7 @@ img {
 
 .introduction,
 .introduction-contact {
-  /*background-image: url("/images/tile.png");*/
-  /*background-color: var(--backround-color);*/
   text-align: center;
-  padding: 24px 0;
 }
 .introduction p {
   font-size: 12px;
@@ -115,9 +124,6 @@ img {
   color: var(--icons-colour);
 }
 
-.about-section h2 {
-  font-family: var(--body-font);
-}
 .about-section {
   padding: 64px 16px;
 }
@@ -140,7 +146,7 @@ footer .fab,
 }
 
 .btn-branding {
-  background-color: var(--primary-color);
+  background-color: var(--button-color);
   border-radius: 8px;
   font-family: var(--body-font);
   font-size: 16px;
@@ -152,7 +158,7 @@ footer .fab,
   box-shadow: none;
 }
 .btn-branding:hover {
-  background-color: var(--third-color);
+  background-color: var(--secondary-color);
 }
 
 .icons {
@@ -162,10 +168,12 @@ footer .fab,
 }
 .technologies {
   font-size: 40px;
+  margin-top: 10px;
+  margin-bottom: 10px;
   color: var(--icons-colour);
 }
 .btn-launch {
-  background-color: var(--primary-color);
+  background-color: var(--button-color);
   border-radius: 6px;
   font-family: var(--body-font);
   font-size: 16px;
@@ -174,10 +182,10 @@ footer .fab,
   margin-right: 12px;
 }
 .btn-launch:hover {
-  background-color: var(--third-color);
+  background-color: var(--secondary-color);
 }
 .introduction-contact .fas {
-  font-size: 40px;
+  font-size: 30px;
 }
 
 #scroll-top {
@@ -196,7 +204,7 @@ footer .social-links a {
   font-size: 40px;
 }
 footer .social-links a:hover {
-  color: var(--third-color);
+  color: var(--secondary-color);
 }
 
 @media (max-width: 900px) {
