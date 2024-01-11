@@ -22,18 +22,6 @@
       integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
       crossorigin="anonymous"
     />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Alice&family=Merriweather&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap"
-      rel="stylesheet"
-    />
 
     <link rel="stylesheet" href="styles.css" />
     <!--link rel="stylesheet" href="dark.css" /-->
@@ -52,6 +40,7 @@
     ></script>
   </head>
   <body class="d-flex flex-column min-vh-100">
+    <div class="main-container">
     <nav class="navbar navbar-expand-sm navbar-light">
       <div class="container-fluid">
         <a
@@ -99,16 +88,16 @@
           />
         </div>
         <div class="col-sm-6">
-          <h2 class="mb-3 title">Tap to reveal image</h2>
+          <h2 class="title">Tap to reveal image</h2>
           <p class="text-muted">
-            This project was coded during my time working at Mobkoi. It is a template that allows designers to build captivating ad units for luxury clients and it was developed to address limitations in the existing ad software, thus expanding the company’s product offerings. It also provides clients with dynamic ways to reveal their products images based on user interaction. Tap to reveal image reveals an image when the user taps and holds hotspots on the screen. The image can either follow the finger movement or remain static. It also changes the call to action based on the user’s last clicked product. It operates seamlessly across various ad formats, mobile and desktop, whether over images or video. The product achieved a 0.25% engagement rate.
+            This project was coded during my time working at Mobkoi. It is a template that allows designers to build captivating ad units for luxury clients and addresses limitations in the existing ad software, thus expanding the company’s product offerings. Tap to reveal shows an image when the user taps and holds hotspots on the screen. The image can either follow the finger movement or remain static. It also changes the call to action based on the user’s last clicked product, whilst operating seamlessly across various ad formats, mobile and desktop, over images or video.
           </p>
           <div class="technologies">
             <i class="fab fa-html5"></i>
             <i class="fab fa-css3-alt"></i>
             <i class="fab fa-js"></i>
           </div>
-          <div class="mt-4">
+          <div class="">
             <a
               href=""
               class="btn btn-launch"
@@ -125,19 +114,13 @@
           </div>
         </div>
       </div>
+
       <div class="container">
         <div class="row mb-5">
           <div class="col-sm-6">
-            <img
-              src="/images/spotlight.jpg"
-              class="img-fluid"
-              alt="Flashlight Reveal"
-            />
-          </div>
-          <div class="col-sm-6">
-            <h2 class="mb-3 title">Flashlight Reveal</h2>
+            <h2 class="title">Flashlight Reveal</h2>
             <p class="text-muted">
-              This project was also coded during my time working at Mobkoi. It uses tap and hold functionality to draw attention to the ad by bringing focus to a specific area and GSAP animation to engage the user when the ad loads. The flashlight effect can be turned on or off using the buttons.This project enhanced the ad units and achieved a 0.33% to 2% user engagement rate. It was created to address limitations in the existing ad software, thus expanding the company’s product offerings.
+              This project was coded during my time working at Mobkoi. It uses tap and hold functionality to draw attention to the ad by bringing focus to a specific area. It uses GSAP animation to engage the user when the ad loads. The flashlight effect can be turned on or off using the buttons. The template was created to address limitations in the existing ad software, thus expanding the company’s product offerings.
             </p>
             <div class="technologies">
               <i class="fab fa-html5"></i>
@@ -145,7 +128,7 @@
               <i class="fab fa-js"></i>
 
             </div>
-            <div class="mt-4">
+            <div class="">
               <a
                 href=""
                 class="btn btn-launch"
@@ -161,6 +144,13 @@
               ></a>
             </div>
           </div>
+          <div class="col-sm-6">
+            <img
+              src="/images/spotlight.jpg"
+              class="img-fluid"
+              alt="Flashlight Reveal"
+            />
+          </div>
         </div>
 
         <div class="container">
@@ -173,16 +163,16 @@
               />
             </div>
             <div class="col-sm-6">
-              <h2 class="mb-3 title">Slider quiz</h2>
+              <h2 class="title">Slider quiz</h2>
               <p class="text-muted">
-                This project was created to increase ad engagement by allowing users to answer a quiz question. When the user has made a selection, the slider handle moves to the selected answer. If correct, the handle stays there, if incorrect, the handle moves to the correct answer and results are displayed in a text.
+                This project was created to increase ad engagement by prompting users with a quiz question. When the user makes a selection, the slider handle moves to the selected answer. If the answer is correct, the handle remains static, if incorrect, the handle moves to the correct answer and the results are displayed in a text.
               </p>
               <div class="technologies">
                 <i class="fab fa-html5"></i>
                 <i class="fab fa-css3-alt"></i>
                 <i class="fab fa-js"></i>
               </div>
-              <div class="mt-4">
+              <div class="">
                 <a
                   href=""
                   class="btn btn-launch"
@@ -201,13 +191,6 @@
           </div>
 
       <div class="row mb-5">
-        <div class="col-sm-6">
-          <img
-            src="/images/weather-app.jpg"
-            class="img-fluid"
-            alt="React weather app"
-          />
-        </div>
         <div class="col-sm-6">
           <h2 class="mb-3 title">React Weather App</h2>
           <p class="text-muted">
@@ -241,6 +224,13 @@
             ></a>
           </div>
         </div>
+        <div class="col-sm-6">
+          <img
+            src="/images/helsinki.png"
+            class="img-fluid"
+            alt="React weather app"
+          />
+        </div>
       </div>
     </div>
 
@@ -248,13 +238,13 @@
       <div class="row mb-5">
         <div class="col-sm-6">
           <img
-            src="/images/yogablog.jpg"
+            src="/images/yoga.png"
             class="img-fluid"
             alt="Yoga page react calendar component"
           />
         </div>
         <div class="col-sm-6">
-          <h2 class="mb-3 title">Yoga page with React calendar</h2>
+          <h2 class="title">Yoga page with React calendar</h2>
           <p class="text-muted">
             A multiple page project built with React which includes a calendar
             feature. The calendar shows the Yoga class timetable and instructor
@@ -289,14 +279,7 @@
       <div class="container">
         <div class="row mb-5">
           <div class="col-sm-6">
-            <img
-              src="/images/mindful.jpg"
-              class="img-fluid"
-              alt="Mindfulness page"
-            />
-          </div>
-          <div class="col-sm-6">
-            <h2 class="mb-3 title ">Mindfulness Page</h2>
+            <h2 class="title ">Mindfulness Page</h2>
             <p class="text-muted">
               Mindfulness project with an interactive feature on the Yoga page where videos are displayed according to what the user needs. Also features random mindfulness quotes generated on load.
             </p>
@@ -322,8 +305,14 @@
               ></a>
             </div>
           </div>
+          <div class="col-sm-6">
+            <img
+              src="/images/mindful.png"
+              class="img-fluid"
+              alt="Mindfulness page"
+            />
+          </div>
         </div>
-
     <button
       id="scroll-top"
       class="btn btn-branding col-1"
@@ -357,7 +346,9 @@
           <i class="fab fa-github"></i>
         </a>
       </div>
+
     </footer>
     <script src="index.js"></script>
+    <div class="main-container">
   </body>
 </html>

@@ -19,21 +19,6 @@
       integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
       crossorigin="anonymous"
     />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap"
-      rel="stylesheet"
-    />
-
     <link rel="stylesheet" href="styles.css" />
     <!--link rel="stylesheet" href="dark.css" /-->
     <script
@@ -49,172 +34,172 @@
   </head>
 
   <body class="d-flex flex-column min-vh-100">
-    <nav class="navbar navbar-expand-sm navbar-light">
-      <div class="container-fluid">
-        <a
-          class="navbar-brand nav-link active"
-          aria-current="page"
-          href="/index.html"
-          title="Homepage"
-          ><img src="/images/logo.svg" alt="Logo" width="100%" height="100%" />
-        </a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNavAltMarkup"
-          aria-controls="navbarNavAltMarkup"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div class="navbar-nav">
-            <a class="nav-link" href="/about.html" title="About Laura">About</a>
-            <a class="nav-link" href="/work.html" title="My projects">My Projects</a>
-            <a class="nav-link" href="/contact.html#contact" title="Contact">Contact</a>
+    <div class="main-container">
+      <nav class="navbar navbar-expand-sm navbar-light">
+        <div class="container-fluid">
+          <a
+            class="navbar-brand nav-link active"
+            aria-current="page"
+            href="/index.html"
+            title="Homepage"
+            ><img src="/images/logo.svg" alt="Logo" width="100%" height="100%" />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link" href="/about.html" title="About Laura">About</a>
+              <a class="nav-link" href="/work.html" title="My projects">My Projects</a>
+              <a class="nav-link" href="/contact.html#contact" title="Contact">Contact</a>
+            </div>
           </div>
         </div>
+      </nav>
+      <div class="introduction">
+        <h4>Hi, I'm Laura, a frontend developer passionate about coding and design.</h4>
+        <a href="about.html" class="btn btn-branding">About me</a>
       </div>
-    </nav>
-    <div class="introduction">
-      <h4>Hi, I'm Laura, a frontend developer passionate about coding and design.</h4>
-      <a href="about.html" class="btn btn-branding mb-3 mt-3">About me</a>
-    </div>
-
-    <h2 class="title">Skills</h2>
-
-    <div class="container skills">
-      <div class="row row-cols-3 row-cols-sm-6">
-        <div class="col">
-          <i class="fab fa-html5"></i>
-          <p>HTML</p>
-        </div>
-
-        <div class="col">
-          <i class="fab fa-css3-alt"></i>
-          <p>CSS</p>
-        </div>
-
-        <div class="col">
-          <i class="fas fa-border-all"></i>
-          <p>Flexbox</p>
-        </div>
-
-        <div class="col">
-          <i class="fab fa-js"></i>
-          <p>JavaScript</p>
-        </div>
-
-        <div class="col">
-          <i class="fab fa-react"></i>
-          <p>React</p>
-        </div>
-        <div class="col">
-          <i class="fas fa-mobile-alt"></i>
-          <p>Responsive Design</p>
-        </div>
-      </div>
-
-      <div class="row row-cols-3 row-cols-sm-6">
-        <div class="col">
-          <i class="fab fa-bootstrap"></i>
-          <p>Bootstrap</p>
-        </div>
-
-        <div class="col">
-          <i class="fab fa-github"></i>
-          <p>GitHub</p>
-        </div>
-
-        <div class="col">
-          <i class="fab fa-npm"></i>
-          <p>NPM</p>
-        </div>
-
-        <div class="col">
-          <i class="fas fa-code"></i>
-          <p>VS Code</p>
-        </div>
-
-        <div class="col">
-          <i class="fas fa-cog"></i>
-          <p>API</p>
-        </div>
-
-        <div class="col">
-          <i class="fas fa-search"></i>
-          <p>SEO</p>
-        </div>
-      </div>
-    </div>
-
-    <h2 class="title">Featured Project</h2>
-
-    <div class="container">
-      <div class="row mb-5">
-        <div class="col-sm-6">
-          <img
-            src="/images/tap-to-reveal.jpg"
-            class="img-fluid p-2"
-            alt="Background change weather app"
-          />
-        </div>
-        <div class="col-sm-6">
-          <h2 class="mb-3">Tap to reveal image</h2>
-          <p class="text-muted">
-            This project was coded during my time working at Mobkoi. It is a template that allows
-            designers to build captivating ad units for luxury clients and it was developed to
-            address limitations in the existing ad software, thus expanding the company’s product
-            offerings. It also provides clients with dynamic ways to reveal their products images
-            based on user interaction. <strong>Tap to reveal image</strong> reveals an image when
-            the user taps and holds hotspots on the screen. The image can either follow the finger
-            movement or remain static. It also changes the call to action based on the user’s last
-            clicked product. It operates seamlessly across various ad formats, mobile and desktop,
-            whether over images or video. The product achieved a 0.25% engagement rate.
-          </p>
-          <div class="technologies">
+      <h2 class="title">Skills</h2>
+      <div class="container skills">
+        <div class="row row-cols-3 row-cols-sm-6">
+          <div class="col">
             <i class="fab fa-html5"></i>
-            <i class="fab fa-css3-alt"></i>
-            <i class="fab fa-js"></i>
+            <p>HTML</p>
           </div>
-          <div class="mt-4 mb-4">
-            <a
-              href="https://laura-dumitru.github.io/Weather-App/"
-              class="btn btn-launch"
-              target="_blank"
-              title="Link to GitHub"
-              >View project</a
-            >
-            <a
-              href="https://github.com/laura-dumitru/Weather-App"
-              class="btn btn-launch"
-              target="_blank"
-              title="Link to GitHub code"
-              ><i class="bi bi-code-slash"></i
-            ></a>
+
+          <div class="col">
+            <i class="fab fa-css3-alt"></i>
+            <p>CSS</p>
+          </div>
+
+          <div class="col">
+            <i class="fas fa-border-all"></i>
+            <p>Flexbox</p>
+          </div>
+
+          <div class="col">
+            <i class="fab fa-js"></i>
+            <p>JavaScript</p>
+          </div>
+
+          <div class="col">
+            <i class="fab fa-react"></i>
+            <p>React</p>
+          </div>
+          <div class="col">
+            <i class="fas fa-mobile-alt"></i>
+            <p>Responsive Design</p>
+          </div>
+        </div>
+
+        <div class="row row-cols-3 row-cols-sm-6">
+          <div class="col">
+            <i class="fab fa-bootstrap"></i>
+            <p>Bootstrap</p>
+          </div>
+
+          <div class="col">
+            <i class="fab fa-github"></i>
+            <p>GitHub</p>
+          </div>
+
+          <div class="col">
+            <i class="fab fa-npm"></i>
+            <p>NPM</p>
+          </div>
+
+          <div class="col">
+            <i class="fas fa-code"></i>
+            <p>VS Code</p>
+          </div>
+
+          <div class="col">
+            <i class="fas fa-cog"></i>
+            <p>API</p>
+          </div>
+
+          <div class="col">
+            <i class="fas fa-search"></i>
+            <p>SEO</p>
           </div>
         </div>
       </div>
-    </div>
-
-    <footer class="footer mt-auto icons">
-      <div class="social-links d-flex justify-content-center">
-        <a href="https://www.instagram.com/lauramona_d/" target="_blank" title="Link to Instagram">
-          <i class="fab fa-instagram"></i>
-        </a>
-        <a
-          href="https://www.linkedin.com/in/laura-d-923248137/"
-          target="_blank"
-          title="Link to LinkedIn"
-        >
-          <i class="fab fa-linkedin"></i>
-        </a>
-        <a href="https://github.com/laura-dumitru" target="_blank" title="Link to GitHub">
-          <i class="fab fa-github"></i>
-        </a>
+      <h2 class="title">Featured Project</h2>
+      <div class="container">
+        <div class="row mb-5">
+          <div class="col-sm-6">
+            <img
+              src="/images/tap-to-reveal.jpg"
+              class="img-fluid p-2"
+              alt="Background change weather app"
+            />
+          </div>
+          <div class="col-sm-6">
+            <h2>Tap to reveal image</h2>
+            <p class="text-muted">
+              This project was coded during my time working at Mobkoi. It is a template that allows
+              designers to build captivating ad units for luxury clients and addresses limitations
+              in the existing ad software, thus expanding the company’s product offerings. Tap to
+              reveal shows an image when the user taps and holds hotspots on the screen. The image
+              can either follow the finger movement or remain static. It also changes the call to
+              action based on the user’s last clicked product, whilst operating seamlessly across
+              various ad formats, mobile and desktop, over images or video.
+            </p>
+            <div class="technologies">
+              <i class="fab fa-html5"></i>
+              <i class="fab fa-css3-alt"></i>
+              <i class="fab fa-js"></i>
+            </div>
+            <div class="project-links">
+              <a
+                href="https://laura-dumitru.github.io/Weather-App/"
+                class="btn btn-launch"
+                target="_blank"
+                title="Link to GitHub"
+                >View project</a
+              >
+              <a
+                href="https://github.com/laura-dumitru/Weather-App"
+                class="btn btn-launch"
+                target="_blank"
+                title="Link to GitHub code"
+                ><i class="bi bi-code-slash"></i
+              ></a>
+            </div>
+          </div>
+        </div>
       </div>
-    </footer>
+
+      <footer class="footer mt-auto icons">
+        <div class="social-links d-flex justify-content-center">
+          <a
+            href="https://www.instagram.com/lauramona_d/"
+            target="_blank"
+            title="Link to Instagram"
+          >
+            <i class="fab fa-instagram"></i>
+          </a>
+          <a
+            href="https://www.linkedin.com/in/laura-d-923248137/"
+            target="_blank"
+            title="Link to LinkedIn"
+          >
+            <i class="fab fa-linkedin"></i>
+          </a>
+          <a href="https://github.com/laura-dumitru" target="_blank" title="Link to GitHub">
+            <i class="fab fa-github"></i>
+          </a>
+        </div>
+      </footer>
+    </div>
   </body>
 </html>
