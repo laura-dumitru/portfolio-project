@@ -5,62 +5,66 @@
   --button-color: #dfe7fd;
   --background-color: #f6f4f6;
   --icons-colour: #383532;
-
-  --body-font: "Poppins", sans-serif;
+  --body-font: "Open Sans", sans-serif;
   --headers-font: "Playfair Display", serif;
 }
 
 body {
   font-family: var(--body-font);
   background-image: url("/images/tile.png");
+  color: var(--icons-colour);
 }
 .main-container {
   background-color: #f6f4f6;
-  max-width: 100%;
+  max-width: 66vw;
   margin: 0 auto;
-  padding: 0 100px;
+  padding: 0 4vw;
+}
+
+hr {
+  margin: 0 auto;
+  max-width: 10vw;
+  border: none;
+  border-top: 1px solid var(--icons-colour);
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: var(--headers-font);
+  color: var(--icons-colour);
+  margin-bottom: 0.5em;
 }
 
 h1 {
-  font-family: var(--headers-font);
-  margin-bottom: 12px;
-
-  font-weight: bold;
-  color: var(--icons-colour);
+  text-align: center;
+  margin: 1.5em 0;
 }
 h2 {
-  font-size: 40px;
-  margin-top: 12px;
-  margin-bottom: 12px;
-}
-h4 {
-  margin-top: 60px;
-  margin-bottom: 24px;
+  font-size: 2em;
 }
 
 p {
-  font-size: 14px;
-  font-weight: normal;
-  line-height: 1.8;
+  line-height: 1.5;
 }
+
+.introduction p {
+  font-family: var(--headers-font);
+  font-size: 2em;
+  margin: 2em 0;
+}
+
 img {
   max-height: 400px;
 }
 
-.title {
-  text-align: center;
-  margin: 12px 0;
-}
 .container h2 {
   text-align: left;
 }
 
 .container {
   max-width: 960px;
-}
-
-.navbar {
-  font-family: var(--body-font);
 }
 
 .navbar-brand {
@@ -70,7 +74,7 @@ img {
 }
 
 .nav-link {
-  color: black !important;
+  color: var(--icons-colour);
   white-space: nowrap;
   padding-top: 8px;
   margin: 0 8px;
@@ -83,13 +87,7 @@ img {
 .introduction,
 .introduction-contact {
   text-align: center;
-}
-.introduction p {
-  font-size: 12px;
-  margin: 0;
-}
-.introduction h2 {
-  line-height: 2;
+  margin-bottom: 32px;
 }
 
 .introduction-contact * {
@@ -100,20 +98,18 @@ img {
 }
 .contact-me-link {
   text-decoration: none;
-  color: black;
+  color: var(--icons-colour);
 }
 .contact-me-link:hover {
   color: var(--icons-colour);
 }
 
-.country {
-  font-family: var(--body-font);
-}
 .skills {
   text-align: center;
+  margin-bottom: 2em;
 }
 .skills i {
-  font-size: 40px;
+  font-size: 3em;
   color: var(--icons-colour);
 }
 
@@ -121,18 +117,8 @@ img {
   position: relative;
   top: -16px;
   margin-bottom: -8px;
-  color: var(--icons-colour);
 }
 
-.about-section {
-  padding: 64px 16px;
-}
-.about-section-content {
-  margin: 0 2px;
-}
-.about-section-content p {
-  font-size: 14px;
-}
 .work {
   display: block;
   margin: 0 auto;
@@ -145,14 +131,6 @@ footer .fab,
   transition: all 250ms ease-in-out;
 }
 
-.btn-branding {
-  background-color: var(--button-color);
-  border-radius: 8px;
-  font-family: var(--body-font);
-  font-size: 16px;
-  line-height: 30px;
-  padding: 16px 32px;
-}
 .btn-check:focus + .btn,
 .btn:focus {
   box-shadow: none;
@@ -182,10 +160,14 @@ footer .fab,
   margin-right: 12px;
 }
 .btn-launch:hover {
-  background-color: var(--secondary-color);
+  background-color: var(--third-color);
 }
 .introduction-contact .fas {
   font-size: 30px;
+}
+.bi.bi-code-slash {
+  color: var(--icons-colour);
+  font-size: 20px;
 }
 
 #scroll-top {
@@ -198,13 +180,19 @@ footer .fab,
   padding: 16px;
 }
 
-footer .social-links a {
+nav a:hover,
+nav a:focus {
+  color: var(--third-color) !important;
+}
+
+footer i:hover {
+  color: var(--third-color);
+}
+
+.social-links a {
   color: var(--icons-colour);
   margin: 64px 20px 32px 20px;
   font-size: 40px;
-}
-footer .social-links a:hover {
-  color: var(--secondary-color);
 }
 
 @media (max-width: 900px) {
@@ -272,6 +260,9 @@ footer .social-links a:hover {
     color: var(--icons-colour);
     margin: 10px;
     font-size: 24px;
+  }
+  .footer.icons:hover {
+    color: Red;
   }
 
   .introduction-contact a {
