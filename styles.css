@@ -20,9 +20,14 @@ body {
   margin: 0 auto;
   padding: 0 4vw;
 }
+.contactme-container {
+  background-color: #f6f4f6;
+  margin: 0 auto;
+}
 
 hr {
   margin: 0 auto;
+  margin-top: 24px;
   max-width: 10vw;
   border: none;
   border-top: 1px solid var(--icons-colour);
@@ -41,12 +46,14 @@ h1 {
   text-align: center;
   margin: 1.5em 0;
 }
+
 h2 {
   font-size: 2em;
 }
 
 p {
   line-height: 1.5;
+  font-size: 16px;
 }
 
 .introduction p {
@@ -93,9 +100,14 @@ img {
 .introduction-contact * {
   margin: 16px;
 }
-.introduction-contact a {
-  font-size: 12px;
+.introduction-contact i {
+  font-size: 16px;
 }
+.fas.fa-phone-square-alt:hover,
+.fas.fa-envelope:hover {
+  color: var(--third-color);
+}
+
 .contact-me-link {
   text-decoration: none;
   color: var(--icons-colour);
@@ -114,16 +126,22 @@ img {
 }
 
 .about-section h1 {
-  position: relative;
-  top: -16px;
-  margin-bottom: -8px;
+  margin-top: 0.5em;
+  margin-bottom: 1em;
+}
+
+.about-section img {
+  margin: 24px;
+  border-radius: 6px;
+}
+.work h4 {
+  margin-bottom: 32px;
 }
 
 .work {
   display: block;
   margin: 0 auto;
   max-width: 70%;
-  font-size: 14px;
 }
 .btn,
 footer .fab,
@@ -135,9 +153,6 @@ footer .fab,
 .btn:focus {
   box-shadow: none;
 }
-.btn-branding:hover {
-  background-color: var(--secondary-color);
-}
 
 .icons {
   display: flex;
@@ -146,16 +161,15 @@ footer .fab,
 }
 .technologies {
   font-size: 40px;
-  margin-top: 10px;
-  margin-bottom: 10px;
   color: var(--icons-colour);
+  margin: 0.5em 0;
 }
 .btn-launch {
   background-color: var(--button-color);
   border-radius: 6px;
   font-family: var(--body-font);
   font-size: 16px;
-  line-height: 30px;
+  line-height: 24px;
   padding: 16px 20px;
   margin-right: 12px;
 }
@@ -209,10 +223,6 @@ footer i:hover {
     padding-top: 0;
   }
 
-  .introduction p {
-    font-size: 20px;
-  }
-
   .mb-3 {
     margin-top: 20px;
   }
@@ -231,10 +241,7 @@ footer i:hover {
   .technologies {
     margin: 0 auto;
   }
-  .technologies {
-    margin-top: 16px;
-    font-size: 32px;
-  }
+
   .title {
     margin: 32px;
   }
@@ -245,9 +252,7 @@ footer i:hover {
   .skills i {
     font-size: 32px;
   }
-  .skills p {
-    font-size: smaller;
-  }
+
   .title {
     margin: 40px;
   }
@@ -260,9 +265,6 @@ footer i:hover {
     color: var(--icons-colour);
     margin: 10px;
     font-size: 24px;
-  }
-  .footer.icons:hover {
-    color: Red;
   }
 
   .introduction-contact a {
