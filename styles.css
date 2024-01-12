@@ -1,7 +1,10 @@
 :root {
-  --primary-color: #fde2e4;
-  --secondary-color: #bee1e6;
-  --third-color: #ffd8db;
+  --light-pink: #fde2e4;
+  --light-blue: #bee1e6;
+  --dark-lavender: #b9cbfd;
+  --pink: #ffd8db;
+  --dark-pink: #fdbcc1;
+  --dark-blue: #9cdde6;
   --button-color: #dfe7fd;
   --background-color: #f6f4f6;
   --icons-colour: #383532;
@@ -11,7 +14,7 @@
 
 body {
   font-family: var(--body-font);
-  background-image: url("/images/tile.png");
+  background-image: url("/images/tile-pink-inverse.png");
   color: var(--icons-colour);
 }
 .main-container {
@@ -23,6 +26,8 @@ body {
 .contactme-container {
   background-color: #f6f4f6;
   margin: 0 auto;
+  min-width: 33vw;
+  min-height: 100vh;
 }
 
 hr {
@@ -38,7 +43,6 @@ h2,
 h3,
 h4 {
   font-family: var(--headers-font);
-  color: var(--icons-colour);
   margin-bottom: 0.5em;
 }
 
@@ -50,8 +54,7 @@ h1 {
 h2 {
   font-size: 2em;
 }
-
-p {
+h2 p {
   line-height: 1.5;
   font-size: 16px;
 }
@@ -94,18 +97,16 @@ img {
 .introduction,
 .introduction-contact {
   text-align: center;
-  margin-bottom: 32px;
+  margin: 4em;
 }
-
-.introduction-contact * {
+.fas.fa-phone-square-alt,
+.fas.fa-envelope {
   margin: 16px;
 }
-.introduction-contact i {
-  font-size: 16px;
-}
+
 .fas.fa-phone-square-alt:hover,
 .fas.fa-envelope:hover {
-  color: var(--third-color);
+  color: var(--dark-blue);
 }
 
 .contact-me-link {
@@ -124,16 +125,25 @@ img {
   font-size: 3em;
   color: var(--icons-colour);
 }
+.skills i:hover {
+  background-color: var(--dark-blue);
+  transition: all 750ms ease-in-out;
+}
 
 .about-section h1 {
+  text-align: left;
   margin-top: 0.5em;
-  margin-bottom: 1em;
+  margin-bottom: 0.5em;
 }
 
 .about-section img {
-  margin: 24px;
   border-radius: 6px;
+  margin: 40px;
 }
+.about-section-content {
+  margin-left: 0;
+}
+
 .work h4 {
   margin-bottom: 32px;
 }
@@ -145,8 +155,9 @@ img {
 }
 .btn,
 footer .fab,
-.contact-me-link {
-  transition: all 250ms ease-in-out;
+.fas.fa-phone-square-alt:hover,
+.fas.fa-envelope:hover {
+  transition: all 500ms ease-in-out;
 }
 
 .btn-check:focus + .btn,
@@ -164,8 +175,9 @@ footer .fab,
   color: var(--icons-colour);
   margin: 0.5em 0;
 }
+
 .btn-launch {
-  background-color: var(--button-color);
+  background-color: var(--light-blue);
   border-radius: 6px;
   font-family: var(--body-font);
   font-size: 16px;
@@ -174,10 +186,10 @@ footer .fab,
   margin-right: 12px;
 }
 .btn-launch:hover {
-  background-color: var(--third-color);
+  background-color: var(--dark-blue);
 }
 .introduction-contact .fas {
-  font-size: 30px;
+  font-size: 40px;
 }
 .bi.bi-code-slash {
   color: var(--icons-colour);
@@ -196,16 +208,16 @@ footer .fab,
 
 nav a:hover,
 nav a:focus {
-  color: var(--third-color) !important;
+  color: var(--dark-blue) !important;
 }
 
 footer i:hover {
-  color: var(--third-color);
+  color: var(--dark-blue);
 }
 
 .social-links a {
   color: var(--icons-colour);
-  margin: 64px 20px 32px 20px;
+  margin: 400px 20px 32px 20px;
   font-size: 40px;
 }
 
@@ -218,8 +230,7 @@ footer i:hover {
     padding: 16px 24px;
   }
 
-  .about-section {
-    text-align: center;
+  .about-section-content {
     padding-top: 0;
   }
 
