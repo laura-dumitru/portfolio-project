@@ -10,11 +10,20 @@
   --icons-colour: #1b1b1b;
   --body-font: "Open Sans", sans-serif;
   --headers-font: "Playfair Display", serif;
+  --background-image: url("/images/tile-pink-inverse.png");
+}
+
+.darkmode {
+  --background-image: url("/images/tile-lavender-inverse.png");
+  --icons-colour: #e0dfd7;
+  --background-color: #29272a;
+  --light-blue: #e0dfd7;
+  --dark-blue: #77406a;
 }
 
 body {
   font-family: var(--body-font);
-  background-image: url("/images/tile-pink-inverse.png");
+  background-image: var(--background-image);
   color: var(--icons-colour);
 }
 .col-lg-6 {
@@ -25,13 +34,13 @@ body {
   margin-right: -100px;
 }
 .main-container {
-  background-color: #f6f4f6;
+  background-color: var(--background-color);
   max-width: 66vw;
   margin: 0 auto;
   padding: 0 4vw;
 }
 .contactme-container {
-  background-color: #f6f4f6;
+  background-color: var(--background-color);
   margin: 0 auto;
   min-width: 33vw;
   min-height: 100vh;

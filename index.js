@@ -9,10 +9,7 @@ const scroll = 640; //px
 function scrollFunction() {
   scrollTop.style.display = "block";
 
-  if (
-    document.body.scrollTop > scroll ||
-    document.documentElement.scrollTop > scroll
-  ) {
+  if (document.body.scrollTop > scroll || document.documentElement.scrollTop > scroll) {
     scrollTop.style.display = "block";
   } else {
     scrollTop.style.display = "none";
