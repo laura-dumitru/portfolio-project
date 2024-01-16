@@ -22,7 +22,7 @@ body {
   margin: 0;
 }
 .row > .col-lg-6 {
-  margin-right: -100px; /* Adjust the value to your preference */
+  margin-right: -100px;
 }
 .main-container {
   background-color: #f6f4f6;
@@ -38,8 +38,7 @@ body {
 }
 
 hr {
-  margin: 0 auto;
-  margin-top: 24px;
+  margin: 3em auto;
   max-width: 10vw;
   border: none;
   border-top: 1px solid var(--icons-colour);
@@ -55,7 +54,7 @@ h4 {
 
 h1 {
   text-align: center;
-  margin: 1.5em 0;
+  margin-bottom: 1em;
 }
 
 h2 {
@@ -66,14 +65,57 @@ h2 p {
   font-size: 16px;
 }
 
+a,
+a:hover,
+a:focus,
+a:visited {
+  text-decoration: none;
+  color: inherit;
+}
+
+a.nav-link {
+  transition: color 0.5s ease-in-out;
+}
+a.nav-link:hover,
+a.nav-link:focus {
+  color: var(--dark-blue);
+}
+
+.navbar-brand {
+  max-width: 64px;
+  padding: 0;
+  margin: 0;
+}
+.nav-link {
+  color: var(--icons-colour);
+  white-space: nowrap;
+  padding-top: 8px;
+  margin: 0 8px;
+}
+.navbar-toggler {
+  border: none;
+}
+nav a:hover,
+nav a:focus {
+  color: var(--dark-blue);
+}
+
+.navbar-brand img {
+  transition: all 250ms ease-in-out;
+}
+.navbar-brand img:hover {
+  transform: rotate(10deg);
+}
+
 .introduction p {
   font-family: var(--headers-font);
   font-size: 2em;
   margin: 2em 0;
 }
 
-img {
-  max-height: 300px;
+.container img {
+  max-width: 95%;
+  margin-top: 0.5em;
 }
 
 .container h2 {
@@ -84,44 +126,10 @@ img {
   max-width: 960px;
 }
 
-.navbar-brand {
-  max-width: 64px;
-  padding: 0;
-  margin: 0;
-}
-
-.nav-link {
-  color: var(--icons-colour);
-  white-space: nowrap;
-  padding-top: 8px;
-  margin: 0 8px;
-}
-
-.navbar-toggler {
-  border: none;
-}
-
 .introduction,
 .introduction-contact {
   text-align: center;
   margin: 4em;
-}
-.fas.fa-phone-square-alt,
-.fas.fa-envelope {
-  margin: 16px;
-}
-
-.fas.fa-phone-square-alt:hover,
-.fas.fa-envelope:hover {
-  color: var(--dark-blue);
-}
-
-.contact-me-link {
-  text-decoration: none;
-  color: var(--icons-colour);
-}
-.contact-me-link:hover {
-  color: var(--icons-colour);
 }
 
 .skills {
@@ -130,11 +138,12 @@ img {
 }
 .skills i {
   font-size: 3em;
-  color: var(--icons-colour);
 }
-.skills i:hover {
-  background-color: var(--dark-blue);
-  transition: all 750ms ease-in-out;
+.skills-group {
+  transition: color 0.5s ease-in-out;
+}
+.skills-group:hover {
+  color: var(--dark-blue);
 }
 
 .about-section h1 {
@@ -144,27 +153,19 @@ img {
 }
 
 .about-section img {
-  max-height: 400px;
-  border-radius: 6px;
-  margin-top: 5em;
+  max-height: 24.5em;
+  margin-top: 4.5em;
+  margin-left: 2em;
 }
 .about-section-content {
   margin-left: 0;
 }
+.about-section.container {
+  margin-bottom: 3em;
+}
 .work {
   text-align: left;
-  margin-left: 4vw;
-}
-.btn,
-footer .fab,
-.fas.fa-phone-square-alt:hover,
-.fas.fa-envelope:hover {
-  transition: all 500ms ease-in-out;
-}
-
-.btn-check:focus + .btn,
-.btn:focus {
-  box-shadow: none;
+  margin-left: 10vw;
 }
 
 .icons {
@@ -173,12 +174,19 @@ footer .fab,
   margin-top: 10px;
 }
 .technologies {
-  font-size: 40px;
+  font-size: 3em;
   color: var(--icons-colour);
   margin: 0.5em 0;
 }
 
-.btn-launch {
+.btn,
+footer .fab,
+.fas.fa-phone-square-alt:hover,
+.fas.fa-envelope:hover {
+  transition: color 0.5s ease-in-out;
+}
+
+.btn {
   background-color: var(--light-blue);
   border-radius: 6px;
   font-family: var(--body-font);
@@ -186,8 +194,13 @@ footer .fab,
   line-height: 24px;
   padding: 16px 20px;
   margin-right: 12px;
+  transition: background-color 0.5s ease-in-out;
 }
-.btn-launch:hover {
+
+#scroll-top {
+  background-color: var(--background-color);
+}
+.btn:hover {
   background-color: var(--dark-blue);
 }
 .introduction-contact .fas {
@@ -208,11 +221,6 @@ footer .fab,
   padding: 16px;
 }
 
-nav a:hover,
-nav a:focus {
-  color: var(--dark-blue) !important;
-}
-
 footer i:hover {
   color: var(--dark-blue);
 }
@@ -221,6 +229,16 @@ footer i:hover {
   color: var(--icons-colour);
   margin: 320px 20px 32px 20px;
   font-size: 40px;
+}
+
+.fas.fa-phone,
+.fas.fa-envelope {
+  margin: 18px;
+}
+
+.fas.fa-phone-square-alt:hover,
+.fas.fa-envelope:hover {
+  color: var(--dark-blue);
 }
 
 @media (max-width: 900px) {
@@ -251,7 +269,7 @@ footer i:hover {
     margin: 32px;
   }
 
-  .btn.btn-launch,
+  .btn,
   .technologies {
     margin: 0 auto;
   }
