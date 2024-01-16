@@ -49,7 +49,22 @@
             aria-current="page"
             href="/index.html"
             title="Homepage"
-            ><img src="/images/logo.svg" alt="Logo" width="100%" height="100%" />
+          >
+            <img src="/images/logo.svg" alt="Logo" width="100%" height="100%" />
+            <!--svg viewBox="0 0 256 256" xmlns="http://www.w3.org/2000/svg">
+              <style>
+                [class^=logo-] {
+                  fill: none;
+                  stroke-width: 40;
+                  stroke-linejoin: round;
+                  stroke-linecap: square
+                }
+                .logo-l { stroke: #fdbcc1 }
+                .logo-d { stroke: #9cdde6 }
+              </style>
+              <path class="logo-l" d="m82.7 173.3-45.2-45.3 90.5-90.5"/>
+              <path class="logo-d" d="m173.3 173.3 45.2-45.3-45.2-45.3"/>
+            </svg-->
           </a>
           <button
             class="navbar-toggler"
@@ -78,63 +93,63 @@
       <h1 class="title">Skills</h1>
       <div class="container skills">
         <div class="row row-cols-3 row-cols-sm-6">
-          <div class="col">
-            <i class="fab fa-html5"></i>
+          <div class="col skills-group">
+            <i class="fab fa-js"></i>
             <p>HTML</p>
           </div>
 
-          <div class="col">
+          <div class="col skills-group">
             <i class="fab fa-css3-alt"></i>
             <p>CSS</p>
           </div>
 
-          <div class="col">
+          <div class="col skills-group">
             <i class="fas fa-border-all"></i>
             <p>Flexbox</p>
           </div>
 
-          <div class="col">
+          <div class="col skills-group">
             <i class="fab fa-js"></i>
             <p>JavaScript</p>
           </div>
 
-          <div class="col">
+          <div class="col skills-group">
             <i class="fab fa-react"></i>
             <p>React</p>
           </div>
-          <div class="col">
+          <div class="col skills-group">
             <i class="fas fa-mobile-alt"></i>
             <p>Responsive Design</p>
           </div>
         </div>
 
         <div class="row row-cols-3 row-cols-sm-6">
-          <div class="col">
+          <div class="col skills-group">
             <i class="fab fa-bootstrap"></i>
             <p>Bootstrap</p>
           </div>
 
-          <div class="col">
+          <div class="col skills-group">
             <i class="fab fa-github"></i>
             <p>GitHub</p>
           </div>
 
-          <div class="col">
+          <div class="col skills-group">
             <i class="fab fa-npm"></i>
             <p>NPM</p>
           </div>
 
-          <div class="col">
+          <div class="col skills-group">
             <i class="fas fa-code"></i>
             <p>VS Code</p>
           </div>
 
-          <div class="col">
+          <div class="col skills-group">
             <i class="fas fa-cog"></i>
-            <p>API</p>
+            <p>APIs</p>
           </div>
 
-          <div class="col">
+          <div class="col skills-group">
             <i class="fas fa-search"></i>
             <p>SEO</p>
           </div>
@@ -147,7 +162,7 @@
           <div class="col-sm-6">
             <img
               src="/images/tapandhold.png"
-              class="img-fluid p-2"
+              class="img-fluid"
               alt="Background change weather app"
             />
           </div>
@@ -167,22 +182,22 @@
               <i class="fab fa-css3-alt"></i>
               <i class="fab fa-js"></i>
             </div>
-            <div class="project-links">
+            <button class="btn">
               <a
                 href="https://laura-dumitru.github.io/Weather-App/"
-                class="btn btn-launch"
                 target="_blank"
                 title="Link to GitHub"
-                >View project</a
+                >Coming soon</a
               >
+            </button>
+            <button class="btn">
               <a
                 href="https://github.com/laura-dumitru/Weather-App"
-                class="btn btn-launch"
                 target="_blank"
                 title="Link to GitHub code"
                 ><i class="bi bi-code-slash"></i
               ></a>
-            </div>
+            </button>
           </div>
         </div>
       </div>
