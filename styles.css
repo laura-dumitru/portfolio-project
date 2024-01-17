@@ -39,12 +39,6 @@ body {
   margin: 0 auto;
   padding: 0 4vw;
 }
-.contactme-container {
-  background-color: var(--background-color);
-  margin: 0 auto;
-  min-width: 33vw;
-  min-height: 100vh;
-}
 
 hr {
   margin: 3em auto;
@@ -120,21 +114,20 @@ nav a:focus {
   color: var(--icons-colour);
   font-size: 1.5em;
 }
+
 #dark-mode-toggle {
   /* padding: 0; */
   border: none; /* reset */
-
   padding: 0.6em 0.7em;
-
   background-color: #f6f4f6;
   cursor: pointer;
-
   border-radius: 50%;
-
   transition: background-color 0.5s ease-in-out;
-
   background-color: var(--hover);
+  position: relative;
+  left: 60%;
 }
+
 #dark-mode-toggle:hover {
   background-color: var(--buttons);
 }
@@ -214,7 +207,6 @@ nav a:focus {
 
 .btn,
 footer .fab,
-.fas.fa-phone-square-alt:hover,
 .fas.fa-envelope:hover {
   transition: color 0.5s ease-in-out;
 }
@@ -237,8 +229,12 @@ footer .fab,
   background-color: var(--hover);
 }
 .introduction-contact .fas {
-  font-size: 40px;
+  font-size: 50px;
 }
+.introduction-contact p {
+  font-size: 1.5em;
+}
+
 .bi.bi-code-slash {
   color: #1b1b1b;
   font-size: 20px;
@@ -260,18 +256,19 @@ footer i:hover {
 
 .social-links a {
   color: var(--icons-colour);
-  margin: 320px 20px 32px 20px;
+  margin: 120px 20px 20px 20px;
   font-size: 40px;
 }
 
-.fas.fa-phone,
 .fas.fa-envelope {
-  margin: 18px;
+  margin: 0.2em;
 }
 
-.fas.fa-phone-square-alt:hover,
 .fas.fa-envelope:hover {
   color: var(--hover);
+}
+.introduction-contact p {
+  margin: 1em;
 }
 
 @media (max-width: 900px) {
