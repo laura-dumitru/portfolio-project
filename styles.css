@@ -25,6 +25,7 @@ body {
   background-image: var(--background-image);
   color: var(--icons-colour);
 }
+
 .col-lg-6 {
   padding: 0;
   margin: 0;
@@ -114,18 +115,28 @@ nav a:focus {
 .navbar-brand img:hover {
   transform: rotate(10deg);
 }
+
+#dark-mode-toggle i {
+  color: var(--icons-colour);
+  font-size: 1.5em;
+}
 #dark-mode-toggle {
-  border: none;
+  /* padding: 0; */
+  border: none; /* reset */
+
+  padding: 0.6em 0.7em;
+
+  background-color: #f6f4f6;
   cursor: pointer;
-  position: relative;
-  left: 65%;
-  padding: 10px 20px;
-  border-radius: 50px;
-  background-color: var(--buttons);
+
+  border-radius: 50%;
+
   transition: background-color 0.5s ease-in-out;
+
+  background-color: var(--hover);
 }
 #dark-mode-toggle:hover {
-  background-color: var(--hover);
+  background-color: var(--buttons);
 }
 
 .introduction p {
@@ -159,6 +170,7 @@ nav a:focus {
 }
 .skills i {
   font-size: 3em;
+  cursor: pointer;
 }
 .skills-group {
   transition: color 0.5s ease-in-out;
