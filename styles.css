@@ -1,24 +1,23 @@
 :root {
   --light-pink: #fde2e4;
-  --light-blue: #bee1e6;
-  --dark-lavender: #b9cbfd;
+  --buttons: #bee1e6;
   --pink: #ffd8db;
   --dark-pink: #fdbcc1;
-  --dark-blue: #9cdde6;
+  --hover: #9cdde6;
   --button-color: #dfe7fd;
-  --background-color: #f6f4f6;
-  --icons-colour: #1b1b1b;
+  --background-color: #f6f4f6; /* #e2e1e2  darker grey backgrounds of images*/
+  --icons-colour: #1b1b1b; /* #292929 lighter black*/
   --body-font: "Open Sans", sans-serif;
   --headers-font: "Playfair Display", serif;
   --background-image: url("/images/tile-pink-inverse.png");
 }
 
 .darkmode {
-  --background-image: url("/images/tile-lavender-inverse.png");
-  --icons-colour: #e0dfd7;
-  --background-color: #29272a;
-  --light-blue: #e0dfd7;
-  --dark-blue: #77406a;
+  --background-image: url("/images/tile-dark.png");
+  --icons-colour: #f6f4f6;
+  --background-color: #1b1b1b; /*29272a*/
+  --buttons: #fdbcc1;
+  --hover: #fd7d86;
 }
 
 body {
@@ -87,7 +86,7 @@ a.nav-link {
 }
 a.nav-link:hover,
 a.nav-link:focus {
-  color: var(--dark-blue);
+  color: var(--hover);
 }
 
 .navbar-brand {
@@ -106,7 +105,7 @@ a.nav-link:focus {
 }
 nav a:hover,
 nav a:focus {
-  color: var(--dark-blue);
+  color: var(--hover);
 }
 
 .navbar-brand img {
@@ -114,6 +113,19 @@ nav a:focus {
 }
 .navbar-brand img:hover {
   transform: rotate(10deg);
+}
+#dark-mode-toggle {
+  border: none;
+  cursor: pointer;
+  position: relative;
+  left: 65%;
+  padding: 10px 20px;
+  border-radius: 50px;
+  background-color: var(--buttons);
+  transition: background-color 0.5s ease-in-out;
+}
+#dark-mode-toggle:hover {
+  background-color: var(--hover);
 }
 
 .introduction p {
@@ -152,7 +164,7 @@ nav a:focus {
   transition: color 0.5s ease-in-out;
 }
 .skills-group:hover {
-  color: var(--dark-blue);
+  color: var(--hover);
 }
 
 .about-section h1 {
@@ -196,7 +208,7 @@ footer .fab,
 }
 
 .btn {
-  background-color: var(--light-blue);
+  background-color: var(--buttons);
   border-radius: 6px;
   font-family: var(--body-font);
   font-size: 16px;
@@ -210,13 +222,13 @@ footer .fab,
   background-color: var(--background-color);
 }
 .btn:hover {
-  background-color: var(--dark-blue);
+  background-color: var(--hover);
 }
 .introduction-contact .fas {
   font-size: 40px;
 }
 .bi.bi-code-slash {
-  color: var(--icons-colour);
+  color: #1b1b1b;
   font-size: 20px;
 }
 
@@ -231,7 +243,7 @@ footer .fab,
 }
 
 footer i:hover {
-  color: var(--dark-blue);
+  color: var(--hover);
 }
 
 .social-links a {
@@ -247,7 +259,7 @@ footer i:hover {
 
 .fas.fa-phone-square-alt:hover,
 .fas.fa-envelope:hover {
-  color: var(--dark-blue);
+  color: var(--hover);
 }
 
 @media (max-width: 900px) {
