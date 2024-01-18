@@ -119,14 +119,13 @@ nav.navbar .navbar-nav a.nav-link:focus {
   cursor: pointer;
   border-radius: 50%;
   transition: background-color 0.5s ease-in-out;
-  background-color: var(--buttons);
+  background-color: var(--hover);
   position: relative;
-  left: 70%;
-  margin-top: 12px;
+  left: 85%;
 }
 
 #dark-mode-toggle:hover {
-  background-color: var(--hover);
+  background-color: var(--buttons);
 }
 
 .introduction p {
@@ -160,13 +159,16 @@ nav.navbar .navbar-nav a.nav-link:focus {
 }
 .skills i {
   font-size: 3em;
-  cursor: pointer;
 }
 .skills-group {
   transition: color 0.5s ease-in-out;
 }
 .skills-group:hover {
   color: var(--hover);
+}
+.bi.bi-code-slash,
+.btn.btn-launch {
+  color: #1b1b1b;
 }
 
 .about-section h1 {
@@ -259,17 +261,12 @@ footer i:hover {
 .fas.fa-envelope:hover {
   color: var(--hover);
 }
-.introduction-contact p {
-  margin: 1em;
-}
 
 @media (max-width: 900px) {
   body {
     text-align: center;
   }
-  .navbar-light .navbar-toggler {
-    color: var(--hover);
-  }
+
   .introduction p {
     font-size: 1.5em;
     margin-top: -1em;
@@ -362,5 +359,9 @@ footer i:hover {
     right: 12px;
     font-size: 22px;
     width: 50px;
+  }
+
+  #dark-mode-toggle {
+    left: 30%;
   }
 }
