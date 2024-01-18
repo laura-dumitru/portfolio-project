@@ -262,6 +262,7 @@ footer i:hover {
 
 .fas.fa-envelope {
   margin: 0.2em;
+  font-size: 2.5em;
 }
 
 .fas.fa-envelope:hover {
@@ -275,64 +276,100 @@ footer i:hover {
   body {
     text-align: center;
   }
-
-  btn btn-branding {
-    padding: 16px 24px;
+  .navbar-brand {
+    max-width: 40px;
+  }
+  .introduction p {
+    font-size: 1.5em;
+    margin-top: -1em;
+  }
+  .main-container {
+    padding: 2vw;
+    max-width: 80vw;
   }
 
-  .about-section-content {
-    padding-top: 0;
+  h2 {
+    font-size: 1.5em;
+    margin: 1em 0;
   }
 
-  .mb-3 {
-    margin-top: 20px;
+  hr {
+    margin: 1em auto;
+    max-width: 20vw;
   }
-  .introduction h2 {
-    margin: 0 48px;
+  .container img {
+    margin-top: 1em;
+  }
+
+  p {
+    font-size: 0.75em;
   }
 
   .col-sm-6 h2,
   p {
     text-align: center;
   }
-  .col-sm-6 p {
-    margin: 32px;
-  }
 
-  .btn,
-  .technologies {
+  .btn {
     margin: 0 auto;
+    padding: 0.75em;
   }
-
-  .title {
-    margin: 32px;
+  .btn a {
+    font-size: 0.75em;
+  }
+  .technologies {
+    font-size: 2em;
   }
 
   .skills {
-    padding: 0 48px;
+    padding: 0 6px;
   }
-  .skills i {
-    font-size: 32px;
+  .skills-group {
+    font-size: 0.75em;
   }
 
-  .title {
-    margin: 40px;
-  }
   #scroll-top {
     bottom: 16px;
     right: 16px;
   }
 
-  footer .social-links a {
-    color: var(--icons-colour);
-    margin: 10px;
-    font-size: 24px;
+  .about-section img {
+    max-height: 15em;
+    margin: 1em 0;
+  }
+  .about-section h1 {
+    text-align: center;
+    margin-top: 1em;
+    margin-bottom: 1em;
+  }
+  .about-section-content {
+    margin: 0.5em;
+  }
+  .about-section.container {
+    margin-bottom: 1em;
+  }
+  .work {
+    font-size: 0.75em;
   }
 
-  .introduction-contact a {
-    font-size: 16px;
+  footer .social-links a {
+    color: var(--icons-colour);
+    margin: 0.5em;
+    margin-top: 3em;
+    font-size: 1.5em;
+  }
+
+  .introduction-contact {
+    margin: 1em;
+    font-size: 0.75em;
   }
   .introduction-contact .fas {
-    font-size: 32px;
+    font-size: 2.5em;
+  }
+  #scroll-top {
+    bottom: 32px;
+    right: 12px;
+    font-size: 22px;
+    width: 50px;
   }
 }
