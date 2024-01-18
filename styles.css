@@ -1,5 +1,5 @@
 :root {
-  --background-image: url("/images/tile-pink-inverse.png");
+  --background-image: url("images/tile-pink-inverse.png");
   --background-color: #f6f4f6; /* #e2e1e2  darker grey backgrounds of images*/
   --body-font: "Open Sans", sans-serif;
   --headers-font: "Playfair Display", serif;
@@ -14,7 +14,7 @@
 }
 
 .darkmode {
-  --background-image: url("/images/tile-dark.png");
+  --background-image: url("images/tile-dark.png");
   --background-color: #1b1b1b; /*29272a*/
   --hover: #fd7d86; /*hover on dark mode*/
   --buttons: #fdbcc1; /*buttons on dark mode*/
@@ -74,16 +74,20 @@ h2 p {
 a,
 a:hover,
 a:focus,
-a:visited {
+a:visited,
+nav.navbar .navbar-nav a.nav-link,
+nav.navbar .navbar-nav a.nav-link:visited {
   text-decoration: none;
   color: inherit;
 }
 
-a.nav-link {
+nav.navbar .navbar-nav a.nav-link {
+  white-space: nowrap;
+  margin-left: 0.5em;
   transition: color 0.5s ease-in-out;
 }
-a.nav-link:hover,
-a.nav-link:focus {
+nav.navbar .navbar-nav a.nav-link:hover,
+nav.navbar .navbar-nav a.nav-link:focus {
   color: var(--hover);
 }
 
@@ -92,29 +96,19 @@ a.nav-link:focus {
   padding: 0;
   margin: 0;
 }
-.nav-link {
-  color: var(--text-colour);
-  white-space: nowrap;
-  padding-top: 8px;
-  margin: 0 8px;
-}
-.navbar-toggler {
-  border: none;
-}
-nav a:hover,
-nav a:focus {
-  color: var(--hover);
-}
-
 .navbar-brand img {
-  transition: all 250ms ease-in-out;
+  transition: transform 0.5s ease-in-out;
 }
 .navbar-brand img:hover {
   transform: rotate(10deg);
 }
 
+.navbar-toggler {
+  border: none;
+}
+
 #dark-mode-toggle i {
-  color: var(--text-colour);
+  color: #f6f4f6; /* var(--text-colour) */
   font-size: 1.5em;
 }
 
@@ -224,9 +218,6 @@ footer .fab,
   margin-right: 12px;
   transition: background-color 0.5s ease-in-out;
 }
-.container a {
-  color: #1b1b1b;
-}
 
 .btn:hover {
   background-color: var(--hover);
@@ -276,8 +267,8 @@ footer i:hover {
   body {
     text-align: center;
   }
-  .navbar-brand {
-    max-width: 40px;
+  .navbar-light .navbar-toggler {
+    color: var(--hover);
   }
   .introduction p {
     font-size: 1.5em;
