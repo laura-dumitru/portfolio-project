@@ -105,10 +105,6 @@ nav.navbar .navbar-nav a.nav-link:focus {
   transform: rotate(10deg);
 }
 
-.navbar-toggler {
-  border: none;
-}
-
 #dark-mode-toggle i {
   color: #f6f4f6; /* var(--text-colour) */
   font-size: 1.5em;
@@ -291,6 +287,10 @@ footer i:hover {
     padding: 2vw;
     max-width: 80vw;
   }
+  .navbar-toggler {
+    color: transparent !important;
+    border: none;
+  }
 
   h2 {
     font-size: 1.5em;
@@ -395,11 +395,11 @@ footer i:hover {
   }
 
   #dark-mode-toggle i {
-    font-size: 1em;
+    font-size: 1.25em;
   }
 
   #dark-mode-toggle {
     left: 25%;
-    padding: 0.2em 0.5em;
+    padding: 0.3em 0.5em;
   }
 }
