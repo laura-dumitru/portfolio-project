@@ -1,0 +1,157 @@
+@media (max-width: 900px) {
+  .row {
+    margin-bottom: 0;
+  }
+  .row.projects {
+    margin-bottom: 2em;
+  }
+  .col-sm-6 p {
+    text-align: left;
+    font-size: 1em;
+  }
+  .col-sm-6 {
+    text-align: center;
+    margin-top: 1em;
+  }
+
+  .navbar-brand img {
+    max-width: 50px;
+  }
+
+  .introduction p {
+    font-size: 1.5em;
+    margin-bottom: 0;
+  }
+  .main-container {
+    padding: 2vw;
+    max-width: 100vw;
+  }
+  .navbar-toggler {
+    color: transparent !important;
+    border: none;
+  }
+
+  h2 {
+    font-size: 1.5em;
+    margin: 1em 0;
+  }
+
+  hr {
+    margin: 1.5em auto;
+    max-width: 20vw;
+  }
+
+  .container h2,
+  div.technologies {
+    text-align: center;
+  }
+
+  p {
+    font-size: 0.75em;
+  }
+
+  ul {
+    margin-bottom: 0;
+  }
+  .title {
+    text-align: center;
+  }
+
+  .btn {
+    font-size: 1em;
+    padding: 1em;
+    margin-right: 0.5em;
+    line-height: 1em;
+  }
+
+  .bi.bi-code-slash {
+    font-size: 1.25em;
+  }
+
+  .technologies {
+    font-size: 2em;
+    margin: 0.5em;
+  }
+
+  .skills-group {
+    font-size: 1em;
+  }
+
+  .about-section img {
+    max-height: 20em;
+    display: block;
+    margin: 0 auto;
+    margin-top: 2em;
+  }
+  .about-section h1 {
+    text-align: center;
+    margin-top: 1em;
+    margin-bottom: 1em;
+  }
+  .about-section-content {
+    text-align: left;
+    padding: 0 1em;
+  }
+  .about-section-content p {
+    font-size: 1em;
+  }
+  .about-section.container {
+    margin-bottom: 1em;
+  }
+  .introduction h1 {
+    margin: 0;
+  }
+  .work {
+    text-align: left;
+    margin: 0 1.5em;
+    font-size: 1em;
+  }
+  .work h4 {
+    text-align: center;
+    font-size: 1.5em;
+  }
+
+  .work p {
+    font-size: 1.5em;
+    text-align: center;
+  }
+  .work h4,
+  .work p {
+    margin: 1em 0;
+  }
+
+  footer .social-links a {
+    color: var(--icons-colour);
+    margin: 0.5em;
+    margin-top: 3em;
+    font-size: 2em;
+  }
+
+  .introduction-contact {
+    margin: 1em;
+    font-size: 1em;
+  }
+  .introduction-contact .fas {
+    font-size: 2.5em;
+  }
+  #scroll-top {
+    bottom: 32px;
+    right: 6px;
+    font-size: 20px;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+  }
+  .fas.fa-angle-up {
+    align-self: center;
+  }
+
+  #dark-mode-toggle i {
+    font-size: 1.25em;
+  }
+
+  #dark-mode-toggle {
+    left: 25%;
+    padding: 0.3em 0.5em;
+  }
+}
