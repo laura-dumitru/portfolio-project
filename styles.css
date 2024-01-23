@@ -7,7 +7,6 @@
   --buttons: #bee1e6; /*buttons on light mode*/
   --text-colour: #1b1b1b; /* #292929 lighter black*/
   --scroll-color: #bee1e6;
-  --arrow-color: #1b1b1b;
   --lightest-pink: #fde2e4; /*not used*/
   --pink: #ffd8db;
   --dark-pink: #fdbcc1;
@@ -20,7 +19,6 @@
   --buttons: #fdbcc1; /*buttons on dark mode*/
   --text-colour: #f6f4f6;
   --scroll-color: #fdbcc1;
-  --arrow-color: #f6f4f6;
 }
 
 body {
@@ -31,6 +29,9 @@ body {
 .row {
   margin-bottom: 2.5em;
 }
+.row.projects {
+  margin-bottom: 3.5em;
+}
 .col-lg-6 {
   padding: 0;
   margin: 0;
@@ -38,6 +39,7 @@ body {
 .row > .col-lg-6 {
   margin-right: -100px;
 }
+
 .main-container {
   background-color: var(--background-color);
   max-width: 66vw;
@@ -136,6 +138,7 @@ nav.navbar .navbar-nav a.nav-link:focus {
 .container img {
   max-width: 95%;
   margin-top: 0.5em;
+  border-radius: 6px;
 }
 
 .container h2 {
@@ -149,7 +152,20 @@ nav.navbar .navbar-nav a.nav-link:focus {
 .introduction,
 .introduction-contact {
   text-align: center;
-  margin: 4em;
+}
+
+.email {
+  transition: all 0.5s ease-in-out;
+}
+.email svg {
+  width: 100%;
+  height: 100%;
+  max-width: 2.5em;
+  margin-bottom: 0.5em;
+}
+.email:hover {
+  stroke: var(--hover);
+  color: var(--hover);
 }
 
 .skills {
@@ -165,9 +181,10 @@ nav.navbar .navbar-nav a.nav-link:focus {
 .skills-group:hover {
   color: var(--hover);
 }
-.bi.bi-code-slash,
+
 .btn.btn-launch {
   color: #1b1b1b;
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0);
 }
 
 .about-section h1 {
@@ -204,8 +221,7 @@ nav.navbar .navbar-nav a.nav-link:focus {
 }
 
 .btn,
-footer .fab,
-.fas.fa-envelope:hover {
+footer .fab {
   transition: color 0.5s ease-in-out;
 }
 
@@ -220,12 +236,11 @@ footer .fab,
   transition: background-color 0.5s ease-in-out;
 }
 
-.btn:hover {
+.btn:hover,
+#scroll-top:hover {
   background-color: var(--hover);
 }
-.introduction-contact .fas {
-  font-size: 50px;
-}
+
 .introduction-contact p {
   font-size: 1em;
 }
@@ -234,15 +249,15 @@ footer .fab,
   border: none;
   outline: none;
   display: none;
-  border-radius: 0;
+  background-color: var(--buttons);
+  color: #1b1b1b;
+  border-radius: 6px;
   position: fixed;
   bottom: 32px;
   right: 32px;
   font-size: 24px;
-  color: var(--arrow-color);
   width: 64px;
   padding: 16px;
-  background-color: var(--scroll-color);
   box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0);
 }
 
@@ -254,13 +269,4 @@ footer i:hover {
   color: var(--text-colour);
   margin: 120px 20px 20px 20px;
   font-size: 40px;
-}
-
-.fas.fa-envelope {
-  margin: 0.2em;
-  font-size: 2.5em;
-}
-
-.fas.fa-envelope:hover {
-  color: var(--hover);
 }

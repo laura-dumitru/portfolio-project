@@ -5,6 +5,7 @@
   .row.projects {
     margin-bottom: 2em;
   }
+
   .col-sm-6 p {
     text-align: left;
     font-size: 1em;
@@ -62,10 +63,6 @@
     padding: 1em;
     margin-right: 0.5em;
     line-height: 1em;
-  }
-
-  .bi.bi-code-slash {
-    font-size: 1.25em;
   }
 
   .technologies {
