@@ -94,9 +94,10 @@ nav.navbar .navbar-nav a.nav-link:focus {
 }
 
 .navbar-brand {
-  max-width: 64px;
+  max-width: 4em;
   padding: 0;
   margin: 0;
+  margin-top: 0.5em;
 }
 .navbar-brand img {
   transition: transform 0.5s ease-in-out;
@@ -233,6 +234,7 @@ footer .fab,
   border: none;
   outline: none;
   display: none;
+  border-radius: 0;
   position: fixed;
   bottom: 32px;
   right: 32px;
