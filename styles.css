@@ -36,10 +36,10 @@ body {
   padding: 0;
   margin: 0;
 }
-/*
+
 .row > .col-lg-6 {
   margin-right: -100px;
-}*/
+}
 
 .main-container {
   background-color: var(--background-color);
