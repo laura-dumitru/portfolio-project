@@ -15,7 +15,7 @@
     margin-top: 1em;
   }
   .col.skills-group {
-    margin-bottom: 1.25em;
+    margin-bottom: 1em;
   }
 
   .navbar-brand img {
@@ -121,11 +121,12 @@
     margin-bottom: 0;
   }
 
-  footer .social-links a {
+  footer svg.lucide {
     color: var(--icons-colour);
-    margin: 0.5em;
     margin-top: 3em;
-    font-size: 3em;
+    margin-left: 1em;
+    width: 32px;
+    height: 32px;
   }
 
   .introduction-contact {

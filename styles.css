@@ -36,6 +36,9 @@ body {
   padding: 0;
   margin: 0;
 }
+.col-sm-6 p {
+  margin-bottom: 2em;
+}
 
 .row > .col-lg-6 {
   margin-right: -100px;
@@ -172,14 +175,16 @@ nav.navbar .navbar-nav a.nav-link:focus {
   text-align: center;
   margin-bottom: 2em;
 }
-.skills i {
-  font-size: 3em;
-}
+
 .skills-group {
   transition: color 0.5s ease-in-out;
 }
 .skills-group:hover {
   color: var(--hover);
+}
+.skills-group svg.lucide {
+  width: 40px;
+  height: 40px;
 }
 
 .btn.btn-launch {
@@ -221,7 +226,7 @@ nav.navbar .navbar-nav a.nav-link:focus {
 }
 
 .btn,
-footer .fab {
+footer svg {
   transition: color 0.5s ease-in-out;
 }
 
@@ -261,12 +266,15 @@ footer .fab {
   box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0);
 }
 
-footer i:hover {
+footer svg.lucide:hover {
   color: var(--hover);
 }
 
-.social-links a {
+footer svg.lucide {
   color: var(--text-colour);
-  margin: 120px 20px 20px 20px;
-  font-size: 40px;
+  margin-top: 5em;
+  margin-bottom: 2em;
+  margin-left: 1.5em;
+  width: 40px;
+  height: 40px;
 }
