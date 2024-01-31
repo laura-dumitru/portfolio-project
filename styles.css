@@ -214,11 +214,7 @@ nav.navbar .navbar-nav a.nav-link:focus {
   justify-content: space-evenly;
   margin-top: 10px;
 }
-.technologies {
-  font-size: 3em;
-  color: var(--text-colour);
-  margin: 0.5em 0;
-}
+
 .projects svg,
 .btn svg {
   stroke-width: 1.5;

@@ -47,8 +47,7 @@
     max-width: 20vw;
   }
 
-  .container h2,
-  div.technologies {
+  .container h2 {
     text-align: center;
   }
 
@@ -69,12 +68,6 @@
     margin-right: 0.5em;
     line-height: 1em;
   }
-
-  .technologies {
-    font-size: 2.5em;
-    margin: 0.75em;
-  }
-
   .skills-group {
     font-size: 1em;
   }
