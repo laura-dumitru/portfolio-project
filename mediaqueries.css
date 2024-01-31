@@ -15,7 +15,7 @@
     margin-top: 1em;
   }
   .col.skills-group {
-    margin-bottom: 1em;
+    margin-bottom: 0;
   }
 
   .navbar-brand img {
@@ -123,8 +123,9 @@
 
   footer svg.lucide {
     color: var(--icons-colour);
-    margin-top: 3em;
+    margin-top: 2em;
     margin-left: 1em;
+    margin-bottom: 1em;
     width: 32px;
     height: 32px;
   }
