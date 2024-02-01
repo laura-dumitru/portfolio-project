@@ -123,9 +123,8 @@
 
   footer svg.lucide {
     color: var(--icons-colour);
-    margin-top: 2em;
+    margin-top: 4em;
     margin-left: 1em;
-    margin-bottom: 0;
     width: 32px;
     height: 32px;
   }
