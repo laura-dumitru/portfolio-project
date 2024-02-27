@@ -144,3 +144,9 @@
     left: 23%;
   }
 }
+
+@media (max-width: 1440px) {
+  .about-section-content {
+    margin-left: 2.5em;
+  }
+}
