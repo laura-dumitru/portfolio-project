@@ -116,9 +116,6 @@
   .work p {
     margin: 1em 0;
   }
-  .education li {
-    margin-bottom: 0;
-  }
 
   footer svg.lucide {
     color: var(--icons-colour);
@@ -145,7 +142,7 @@
 }
 
 @media (min-width: 901px) and (max-width: 1440px) {
-  .col-lg-6 .about-section-content {
-    margin-left: 2.5em;
+  .about-section-content {
+    margin-left: 3em;
   }
 }
