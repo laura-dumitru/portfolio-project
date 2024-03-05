@@ -212,6 +212,9 @@ nav.navbar .navbar-nav a.nav-link:focus {
 .work {
   text-align: left;
 }
+#experience {
+  text-align: left;
+}
 
 .icons {
   display: flex;

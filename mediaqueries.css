@@ -116,6 +116,9 @@
   .work p {
     margin: 1em 0;
   }
+  #experience {
+    text-align: center;
+  }
 
   footer svg.lucide {
     color: var(--icons-colour);
