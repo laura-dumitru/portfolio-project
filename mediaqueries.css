@@ -146,7 +146,9 @@
 }
 
 @media (max-width: 1440px) {
-  .about-section-content {
+  .col-lg-6 .about-section-content {
+    max-width: none;
+    width: 100%;
     margin-left: 2.5em;
   }
 }
