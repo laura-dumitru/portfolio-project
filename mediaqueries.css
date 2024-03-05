@@ -83,11 +83,10 @@
     margin-top: 1em;
     margin-bottom: 1em;
   }
-  .about-section-content {
+
+  .about-section-content p {
     text-align: left;
     padding: 0 1.5em;
-  }
-  .about-section-content p {
     font-size: 1em;
   }
   .about-section.container {
@@ -145,10 +144,8 @@
   }
 }
 
-@media (max-width: 1440px) {
+@media (min-width: 901px) and (max-width: 1440px) {
   .col-lg-6 .about-section-content {
-    max-width: none;
-    width: 100%;
     margin-left: 2.5em;
   }
 }
